@@ -5,5 +5,7 @@ edition = "2024"
 
 [dependencies]
 anyhow = "1.0.104"
+sha2 = "0.10"
 tar = "0.4.46"
+ureq = "3.4.2"
 xz2 = "0.1.7"
