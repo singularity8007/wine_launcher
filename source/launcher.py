@@ -36,10 +36,10 @@ def ensure_prefix(pfx_path, wine_bin):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Launch a Windows exe through Wine/Proton")
-    parser.add_argument("--exe", required=True, help="Path to the .exe to launch")
-    parser.add_argument("--prefix", required=True, help="Path to the Wine prefix")
-    parser.add_argument("--wine", required=True, help="Path to the wine binary")
+    parser = argparse.ArgumentParser(description="launch windows exe in wine and proton")
+    parser.add_argument("--exe", required=True, help="path to the .exe")
+    parser.add_argument("--prefix", required=True, help="path to wine pfx")
+    parser.add_argument("--wine", required=True, help="path to wine bin")
 
     args = parser.parse_args()
 

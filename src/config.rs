@@ -3,6 +3,7 @@ use std::path::PathBuf;
 
 /// Everything the launcher needs to know. Hardcoded for now (D-006).
 #[derive(Debug)]
+#[allow(dead_code)]
 pub struct Config {
     pub runner_dir: PathBuf,  // GE-Proton folder
     pub steamrt_dir: PathBuf, // extracted SteamLinuxRuntime_4
@@ -29,6 +30,7 @@ impl Config {
     }
 
     /// SLR's container entry point script.
+    #[allow(dead_code)]
     pub fn entry_point(&self) -> PathBuf {
         self.steamrt_dir.join("_v2-entry-point")
     }
