@@ -16,7 +16,7 @@ impl Config {
     pub fn hardcoded() -> Result<Self, VarError> {
         let root = PathBuf::from(env::var("HOME")?).join("wine_launcher");
         Ok(Self {
-            runner_dir: root.join("proton").join("GE-Proton11-5-x86_64"),
+            runner_dir: root.join("proton").join("ge-proton"),
             steamrt_dir: root.join("steamrt").join("steamrt4"),
             reaper_path: root.join("bin").join("reaper"),
             prefix_dir: root.join("test").join("prefix"),
