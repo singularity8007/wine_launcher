@@ -1,18 +1,16 @@
 mod config;
 mod downloader;
 mod launch_chain;
-mod marker;
 mod prefix;
 mod process;
-mod steamrt;
 
 use config::Config;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let cfg = Config::hardcoded()?;
 
-    // Fetch and install the Steam Linux Runtime if there's no valid marker.
-    downloader::ensure_steamrt(&cfg.steamrt_dir)?;
+    // First thing at startup: check for updates and (re)install if needed.
+    downloader::update_all(&cfg)?;
 
     prefix::ensure_prefix(&cfg)?;
 
