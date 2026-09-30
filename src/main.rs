@@ -1,8 +1,9 @@
 mod config;
 mod downloader;
+mod installer;
 mod launch_chain;
 mod prefix;
-//mod process;
+mod sophon;
 
 use config::Config;
 
@@ -11,6 +12,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // First thing at startup: check for updates and (re)install if needed.
     downloader::update_all(&cfg)?;
+    installer::ensure_game(&cfg.game_dir)?;
 
     prefix::ensure_prefix(&cfg)?;
 

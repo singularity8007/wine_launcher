@@ -9,7 +9,10 @@ pub struct Config {
     pub steamrt_dir: PathBuf, // extracted SteamLinuxRuntime_4
     pub reaper_path: PathBuf, // vendored reaper binary
     pub prefix_dir: PathBuf,  // folder that holds the pfx/ prefix
-    pub exe: String,          // Windows path of the exe to launch
+    pub exe: String,  // Windows path of the exe to launch
+    pub game_dir: PathBuf, // fresh ZZZ install  
+        
+        
 }
 
 impl Config {
@@ -21,6 +24,7 @@ impl Config {
             reaper_path: root.join("bin").join("reaper"),
             prefix_dir: root.join("test").join("prefix"),
             exe: String::from(r"c:\windows\system32\notepad.exe"),
+            game_dir: root.join("game"), 
         })
     }
 

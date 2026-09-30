@@ -153,7 +153,7 @@ fn read_record(dest: &Path) -> Option<String> {
         .map(|s| s.trim().to_string())
 }
 
-fn build_agent() -> ureq::Agent {
+pub fn build_agent() -> ureq::Agent {
     let config = ureq::Agent::config_builder()
         .timeout_connect(Some(Duration::from_secs(15)))
         // Total budget for reading one body. Generous for slow connections.

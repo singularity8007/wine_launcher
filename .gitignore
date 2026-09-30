@@ -9,3 +9,6 @@ steamrt/
 # Local testing
 test/
 python_launcher/
+
+# ZZZ install from the Sophon downloader (~71 GB when done)
+game/
