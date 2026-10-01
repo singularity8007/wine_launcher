@@ -1,20 +1,19 @@
+use crate::progress::Progress;
 use crate::sophon::{self, Plan};
 use anyhow::{bail, Context, Result};
 use md5::{Digest, Md5};
+use nix::sys::statvfs::statvfs;
 use prost::Message;
-use std::fs::{self, File, OpenOptions};
-use std::io::Write;
+use std::fs::{self, OpenOptions};
 use std::os::unix::fs::FileExt;
 use std::path::{Path, PathBuf};
-use std::sync::atomic::{AtomicU64, AtomicUsize, Ordering};
+use std::sync::atomic::{AtomicUsize, Ordering};
 use std::sync::Mutex;
 use std::thread;
-use std::time::Duration;
 
 // DECISION (yours): parallel chunk downloads. Chunks are ~1 MB, so more
 // workers hide network latency; raise it if your connection isn't saturated.
 const WORKERS: usize = 8;
-const CHUNK_ATTEMPTS: u32 = 3;
 const MB: u64 = 1024 * 1024;
 
 /// Written into the game folder once an install has fully finished.
@@ -59,24 +58,29 @@ struct Chunk {
 /// One chunk to fetch and where it goes.
 struct Task {
     url: String,
+    file: String, // the game file's name from the manifest, used in error messages
     path: PathBuf,
     offset: u64,
-    size: u64, // uncompressed
+    size: u64,   // uncompressed
     md5: String, // of the uncompressed data
 }
 
-/// Install ZZZ into `dest` if it isn't installed yet. Call at startup.
-pub fn ensure_game(dest: &Path) -> Result<()> {
+/// Install ZZZ into `dest` if it isn't installed yet. Progress and warnings
+/// go to `progress`; the caller decides how to show them.
+pub fn ensure_game(dest: &Path, progress: &Progress) -> Result<()> {
+    progress.set_label("Checking the ZZZ version...");
     let plan = match sophon::plan() {
         Ok(plan) => plan,
         // Offline, but a finished install exists: warn and carry on.
         Err(e) if dest.join(RECORD_NAME).exists() => {
-            eprintln!("could not check ZZZ for updates ({e:#}); using the installed copy");
+            progress.note(format!(
+                "Could not check ZZZ for updates ({e:#}); using the installed copy."
+            ));
             return Ok(());
         }
         Err(e) => return Err(e),
     };
-    install(&plan, dest)
+    install(&plan, dest, progress)
 }
 
 /// What the record file holds. Manifest ids embed a checksum, so this changes
@@ -90,7 +94,7 @@ fn version_id(plan: &Plan) -> String {
     format!("{} {}", plan.tag, ids.join(","))
 }
 
-fn install(plan: &Plan, dest: &Path) -> Result<()> {
+fn install(plan: &Plan, dest: &Path, progress: &Progress) -> Result<()> {
     let id = version_id(plan);
     match fs::read_to_string(dest.join(RECORD_NAME)) {
         Ok(found) if found == id => return Ok(()), // already installed
@@ -102,30 +106,24 @@ fn install(plan: &Plan, dest: &Path) -> Result<()> {
         Err(_) => {}
     }
 
-    let gb = |bytes: u64| bytes as f64 / 1e9;
-    println!(
-        "Installing ZZZ {}: {} files in {} chunks, {:.1} GB to download, {:.1} GB on disk",
-        plan.tag,
-        plan.items.iter().map(|i| i.files).sum::<u64>(),
-        plan.items.iter().map(|i| i.chunks).sum::<u64>(),
-        gb(plan.items.iter().map(|i| i.compressed).sum()),
-        gb(plan.items.iter().map(|i| i.uncompressed).sum()),
-    );
-
-    // No record means nothing finished, so any leftovers are a killed install.
-    // The folder belongs to the launcher, so start clean.
+    // A finished install returned above, so a folder with no record is an
+    // install that got interrupted. There's no resume, so it's useless:
+    // clear it out and start over from nothing.
     if dest.exists() {
-        fs::remove_dir_all(dest)?;
+        progress.set_label("Removing an unfinished install...");
+        fs::remove_dir_all(dest)
+            .with_context(|| format!("could not remove {}", dest.display()))?;
     }
     fs::create_dir_all(dest)?;
 
     let agent = crate::downloader::build_agent();
 
-    // Step 1: read every manifest, create the folders and empty pre-sized
-    // files, and list all the chunks that need fetching.
+    // Step 1: read every manifest, create the folders and pre-sized files, and
+    // list all the chunks to fetch.
     let mut tasks: Vec<Task> = Vec::new();
+    let mut total_size = 0u64; // bytes the finished game takes up
     for item in &plan.items {
-        println!("Reading manifest: {}", item.name);
+        progress.set_label(format!("Reading manifest: {}", item.name));
         let manifest = fetch_manifest(&agent, &item.manifest_url)?;
         for file in manifest.files {
             // The manifest is remote data: never let it write outside `dest`.
@@ -140,11 +138,21 @@ fn install(plan: &Plan, dest: &Path) -> Result<()> {
             if let Some(parent) = path.parent() {
                 fs::create_dir_all(parent)?;
             }
-            // Pre-size the file so chunks can be written anywhere, in any order.
-            File::create(&path)?.set_len(file.size)?;
+            // Create the file at its final size up front. That lets chunks be
+            // written anywhere, in any order; the unwritten parts stay sparse,
+            // so they take no disk space yet.
+            let f = OpenOptions::new()
+                .write(true)
+                .create(true)
+                .truncate(true)
+                .open(&path)
+                .with_context(|| format!("creating {}", path.display()))?;
+            f.set_len(file.size)?;
+            total_size += file.size;
             for chunk in file.chunks {
                 tasks.push(Task {
                     url: format!("{}/{}", item.chunk_url_prefix, chunk.id),
+                    file: file.name.clone(),
                     path: path.clone(),
                     offset: chunk.offset,
                     size: chunk.uncompressed_size,
@@ -154,13 +162,32 @@ fn install(plan: &Plan, dest: &Path) -> Result<()> {
         }
     }
 
-    // Step 2: download chunks on a pool of threads. Each worker repeatedly
-    // claims the next unclaimed task by bumping a shared counter.
-    let total: u64 = tasks.iter().map(|t| t.size).sum();
+    // Step 2: make sure the whole game fits, before downloading anything.
+    let gb = |bytes: u64| bytes as f64 / 1e9;
+    let free = free_space(dest)?;
+    if free < total_size {
+        bail!(
+            "not enough disk space in {}: need {:.1} GB, only {:.1} GB free",
+            dest.display(),
+            gb(total_size),
+            gb(free)
+        );
+    }
+
+    // Step 3: download chunks on a pool of threads. Each worker repeatedly
+    // claims the next unclaimed task by bumping a shared counter, and reports
+    // each finished chunk straight to `progress` for the window to read.
+    progress.set_label(format!(
+        "Downloading ZZZ {} ({:.1} GB to download, {:.1} GB on disk)",
+        plan.tag,
+        gb(plan.items.iter().map(|i| i.compressed).sum()),
+        gb(total_size),
+    ));
+    progress.set_total(tasks.iter().map(|t| t.size).sum());
     let next = AtomicUsize::new(0);
-    let done = AtomicU64::new(0);
     let failed: Mutex<Option<anyhow::Error>> = Mutex::new(None);
 
+    // thread::scope waits for every worker before it returns.
     thread::scope(|s| {
         let work = || loop {
             // Stop as soon as any worker has hit a fatal error.
@@ -170,36 +197,41 @@ fn install(plan: &Plan, dest: &Path) -> Result<()> {
             let Some(task) = tasks.get(next.fetch_add(1, Ordering::Relaxed)) else {
                 break; // no tasks left
             };
+            // One attempt, no retries: a failure stops the whole install.
             match fetch_chunk(&agent, task) {
-                Ok(()) => {
-                    done.fetch_add(task.size, Ordering::Relaxed);
-                }
+                Ok(()) => progress.add(task.size),
                 Err(e) => {
-                    failed.lock().unwrap().get_or_insert(e);
+                    failed.lock().unwrap().get_or_insert(e.context(format!(
+                        "chunk failed in {} ({})",
+                        task.file, task.url
+                    )));
                     break;
                 }
             }
         };
-        let handles: Vec<_> = (0..WORKERS).map(|_| s.spawn(work)).collect();
-
-        // This thread just reports progress until the workers finish.
-        while handles.iter().any(|h| !h.is_finished()) {
-            let d = done.load(Ordering::Relaxed);
-            print!("\r{:.1} / {:.1} GB ({}%)   ", gb(d), gb(total), d * 100 / total.max(1));
-            std::io::stdout().flush().ok();
-            thread::sleep(Duration::from_secs(1));
+        for _ in 0..WORKERS {
+            s.spawn(work);
         }
-        println!();
     });
 
     if let Some(e) = failed.into_inner().unwrap() {
-        return Err(e);
+        return Err(e.context("download stopped; run Install again to start over"));
     }
 
     // Last, on purpose: only a finished install gets a record.
     fs::write(dest.join(RECORD_NAME), &id)?;
-    println!("ZZZ {} installed", plan.tag);
     Ok(())
+}
+
+/// Free bytes on the disk that holds `path`, as a normal (non-root) user sees it.
+fn free_space(path: &Path) -> Result<u64> {
+    let s = statvfs(path).context("could not read the free disk space")?;
+    Ok(s.blocks_available() as u64 * s.fragment_size() as u64)
+}
+
+/// Lowercase hex md5, the format the manifest uses.
+fn md5_hex(data: &[u8]) -> String {
+    format!("{:x}", Md5::digest(data))
 }
 
 /// Download and decode one manifest (zstd-compressed protobuf).
@@ -215,21 +247,8 @@ fn fetch_manifest(agent: &ureq::Agent, url: &str) -> Result<Manifest> {
     Ok(Manifest::decode(raw.as_slice())?)
 }
 
-/// Fetch one chunk, retrying a few times. With ~58,000 chunks, one flaky
-/// request shouldn't sink a 70 GB install.
+/// Fetch, decompress, verify and write one chunk.
 fn fetch_chunk(agent: &ureq::Agent, task: &Task) -> Result<()> {
-    let mut last = None;
-    for _ in 0..CHUNK_ATTEMPTS {
-        match try_chunk(agent, task) {
-            Ok(()) => return Ok(()),
-            Err(e) => last = Some(e),
-        }
-    }
-    let e = last.expect("CHUNK_ATTEMPTS is at least 1");
-    Err(e.context(format!("chunk failed after {CHUNK_ATTEMPTS} attempts: {}", task.url)))
-}
-
-fn try_chunk(agent: &ureq::Agent, task: &Task) -> Result<()> {
     let compressed = agent
         .get(task.url.as_str())
         .call()?
@@ -243,7 +262,7 @@ fn try_chunk(agent: &ureq::Agent, task: &Task) -> Result<()> {
     if data.len() as u64 != task.size {
         bail!("wrong size: got {}, expected {}", data.len(), task.size);
     }
-    let md5 = format!("{:x}", Md5::digest(&data));
+    let md5 = md5_hex(&data);
     if md5 != task.md5.to_lowercase() {
         bail!("checksum mismatch: got {md5}, expected {}", task.md5);
     }

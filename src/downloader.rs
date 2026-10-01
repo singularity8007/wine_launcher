@@ -1,4 +1,5 @@
 use crate::config::Config;
+use crate::progress::Progress;
 use anyhow::{bail, Context, Result};
 use flate2::read::GzDecoder;
 use sha2::{digest::DynDigest, Sha256, Sha512};
@@ -10,6 +11,12 @@ use tar::Archive;
 use xz2::read::XzDecoder;
 
 const MAX_ATTEMPTS: u32 = 3;
+
+/// How long to wait for a server to start answering once we're connected.
+/// Without this, a server that accepts the connection and then goes silent
+/// would hang us forever. It only limits the wait for the reply to begin, so
+/// big downloads aren't cut short.
+const REPLY_TIMEOUT: Duration = Duration::from_secs(30);
 
 /// File inside each install folder holding the published hash of the archive
 /// it was installed from. Startup compares it to the latest published hash.
@@ -26,24 +33,32 @@ struct Package {
     hash_url: String,
 }
 
-/// Run every update check. Call this first thing at startup.
-pub fn update_all(cfg: &Config) -> Result<()> {
+/// Run every update check. Progress and warnings go to `progress`.
+pub fn update_all(cfg: &Config, progress: &Progress) -> Result<()> {
     let agent = build_agent();
 
-    ensure(&agent, &steamrt_package(cfg))
-        .or_else(|e| use_installed_copy("Steam Linux Runtime", &cfg.steamrt_dir, e))?;
+    ensure(&agent, &steamrt_package(cfg), progress)
+        .or_else(|e| use_installed_copy("Steam Linux Runtime", &cfg.steamrt_dir, e, progress))?;
 
     // Building the GE-Proton package needs the network (to learn the latest tag).
+    progress.set_label("Checking GE-Proton...");
     ge_proton_package(cfg)
-        .and_then(|pkg| ensure(&agent, &pkg))
-        .or_else(|e| use_installed_copy("GE-Proton", &cfg.runner_dir, e))
+        .and_then(|pkg| ensure(&agent, &pkg, progress))
+        .or_else(|e| use_installed_copy("GE-Proton", &cfg.runner_dir, e, progress))
 }
 
 /// If the update check failed but a copy is already installed, keep going
-/// with it (offline play) instead of refusing to start.
-fn use_installed_copy(name: &str, dest: &Path, err: anyhow::Error) -> Result<()> {
+/// with it (offline play) instead of failing; the window shows a warning.
+fn use_installed_copy(
+    name: &str,
+    dest: &Path,
+    err: anyhow::Error,
+    progress: &Progress,
+) -> Result<()> {
     if read_record(dest).is_some() {
-        eprintln!("could not check {name} for updates ({err:#}); using the installed copy");
+        progress.note(format!(
+            "Could not check {name} for updates ({err:#}); using the installed copy."
+        ));
         Ok(())
     } else {
         Err(err)
@@ -82,6 +97,7 @@ fn latest_ge_tag() -> Result<String> {
     let config = ureq::Agent::config_builder()
         .max_redirects(0)
         .timeout_connect(Some(Duration::from_secs(15)))
+        .timeout_recv_response(Some(REPLY_TIMEOUT))
         .build();
     let agent = ureq::Agent::new_with_config(config);
 
@@ -102,12 +118,12 @@ fn latest_ge_tag() -> Result<String> {
 
 /// Bring `pkg` up to date: skip if the recorded hash matches the latest
 /// published one, otherwise download, verify, wipe, extract and record.
-fn ensure(agent: &ureq::Agent, pkg: &Package) -> Result<()> {
+fn ensure(agent: &ureq::Agent, pkg: &Package, progress: &Progress) -> Result<()> {
+    progress.set_label(format!("Checking {}...", pkg.name));
     let expected = published_hash(agent, pkg)?;
     if read_record(&pkg.dest).as_deref() == Some(expected.as_str()) {
         return Ok(()); // already the latest
     }
-    println!("Installing {}...", pkg.name);
 
     // The archive sits next to the install folder, so wiping the folder
     // never deletes it.
@@ -119,10 +135,17 @@ fn ensure(agent: &ureq::Agent, pkg: &Package) -> Result<()> {
     // failure (truncated or corrupted download).
     let mut attempt = 1;
     loop {
+        progress.set_label(format!(
+            "Downloading {} (attempt {attempt} of {MAX_ATTEMPTS})...",
+            pkg.name
+        ));
         match download(agent, &pkg.archive_url, &archive, &expected) {
             Ok(actual) if actual == expected => break,
-            Ok(actual) => eprintln!("checksum mismatch: got {actual}, expected {expected}"),
-            Err(e) => eprintln!("download failed: {e:#}"),
+            Ok(actual) => progress.note(format!(
+                "{}: checksum mismatch: got {actual}, expected {expected}",
+                pkg.name
+            )),
+            Err(e) => progress.note(format!("{}: download failed: {e:#}", pkg.name)),
         }
         if attempt == MAX_ATTEMPTS {
             bail!("giving up on {} after {MAX_ATTEMPTS} attempts", pkg.archive_name);
@@ -132,6 +155,7 @@ fn ensure(agent: &ureq::Agent, pkg: &Package) -> Result<()> {
 
     // Only wipe the old install once the new archive is verified, so a
     // failed download leaves the old install usable.
+    progress.set_label(format!("Installing {}...", pkg.name));
     if pkg.dest.exists() {
         fs::remove_dir_all(&pkg.dest)?;
     }
@@ -156,6 +180,7 @@ fn read_record(dest: &Path) -> Option<String> {
 pub fn build_agent() -> ureq::Agent {
     let config = ureq::Agent::config_builder()
         .timeout_connect(Some(Duration::from_secs(15)))
+        .timeout_recv_response(Some(REPLY_TIMEOUT))
         // Total budget for reading one body. Generous for slow connections.
         .timeout_recv_body(Some(Duration::from_secs(30 * 60)))
         .build();

@@ -1,5 +1,28 @@
 use crate::config::Config;
-use std::process::Command;
+use crate::prefix;
+use anyhow::Result;
+use std::process::{Command, ExitStatus};
+
+/// True if everything a launch needs is on disk. Local files only, no
+/// network, so it's instant and works offline.
+pub fn is_ready(cfg: &Config) -> bool {
+    [
+        cfg.exe.clone(),
+        cfg.entry_point(),
+        cfg.reaper_path.clone(),
+        cfg.runner_dir.join("proton"),
+    ]
+    .iter()
+    .all(|path| path.exists())
+}
+
+/// Launch the game and block until it exits.
+pub fn run(cfg: &Config) -> Result<ExitStatus> {
+    // Create the Wine prefix on the first run; a no-op afterwards.
+    prefix::ensure_prefix(cfg)?;
+    // "waitforexitandrun" blocks until the program exits.
+    Ok(build(cfg, "waitforexitandrun").status()?)
+}
 
 /// Build (but don't run) the command that launches `cfg.exe` inside the
 /// Steam Linux Runtime, the same way Steam and TwintailLauncher do:
@@ -7,15 +30,13 @@ use std::process::Command;
 ///   _v2-entry-point --verb=V -- reaper SteamLaunch AppId=0 -- proton V exe
 ///
 /// `verb` is "run" (fire and forget) or "waitforexitandrun" (block until
-/// the game exits, which is what we want while testing with Notepad).
+/// the game exits).
 pub fn build(cfg: &Config, verb: &str) -> Command {
     // Proton keeps its Wine prefix in <data path>/pfx.
     let pfx = cfg.prefix_dir.join("pfx");
 
-    // DECISION (yours): STEAM_COMPAT_INSTALL_PATH should be the game's install
-    // folder. Notepad has none, so for now we reuse the prefix folder, since
-    // it's a folder that already exists. Change this once ZZZ is installed.
-    let install_dir = &cfg.prefix_dir;
+    // STEAM_COMPAT_INSTALL_PATH is the game's install folder.
+    let install_dir = &cfg.game_dir;
 
     // The entry script that sets up the container. Everything about
     // bwrap/pressure-vessel stays hidden inside it.

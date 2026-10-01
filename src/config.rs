@@ -1,6 +1,9 @@
 use std::env::{self, VarError};
 use std::path::PathBuf;
 
+/// The game's exe, relative to the install folder.
+const GAME_EXE: &str = "ZenlessZoneZero.exe";
+
 /// Everything the launcher needs to know. Hardcoded for now (D-006).
 #[derive(Debug)]
 #[allow(dead_code)]
@@ -9,22 +12,21 @@ pub struct Config {
     pub steamrt_dir: PathBuf, // extracted SteamLinuxRuntime_4
     pub reaper_path: PathBuf, // vendored reaper binary
     pub prefix_dir: PathBuf,  // folder that holds the pfx/ prefix
-    pub exe: String,  // Windows path of the exe to launch
-    pub game_dir: PathBuf, // fresh ZZZ install  
-        
-        
+    pub game_dir: PathBuf,    // fresh ZZZ install
+    pub exe: PathBuf,         // the exe to launch (Wine accepts a Linux path here)
 }
 
 impl Config {
     pub fn hardcoded() -> Result<Self, VarError> {
         let root = PathBuf::from(env::var("HOME")?).join("wine_launcher");
+        let game_dir = root.join("game");
         Ok(Self {
             runner_dir: root.join("proton").join("ge-proton"),
             steamrt_dir: root.join("steamrt").join("steamrt4"),
             reaper_path: root.join("bin").join("reaper"),
             prefix_dir: root.join("test").join("prefix"),
-            exe: String::from(r"c:\windows\system32\notepad.exe"),
-            game_dir: root.join("game"), 
+            exe: game_dir.join(GAME_EXE),
+            game_dir,
         })
     }
 
@@ -34,7 +36,6 @@ impl Config {
     }
 
     /// SLR's container entry point script.
-    #[allow(dead_code)]
     pub fn entry_point(&self) -> PathBuf {
         self.steamrt_dir.join("_v2-entry-point")
     }
