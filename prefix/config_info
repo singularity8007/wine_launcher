@@ -1,0 +1,14 @@
+GE-Proton11-7
+/home/hamza/wine_launcher/proton/ge-proton/files/share/fonts/
+/home/hamza/wine_launcher/proton/ge-proton/files/lib/
+
+0
+0
+0
+/home/hamza/wine_launcher/proton/ge-proton/files/share/default_pfx/
+1789520097.0
+False
+True
+d3dcompiler_*.dll,d3dcsx*.dll,d3dx*.dll,dx8vb.dll,x3daudio*.dll,xactengine*.dll,xapofx*.dll,xaudio*.dll,xinput*.dll,atl[89]0.dll,msvcm[89]0.dll,msvcp[89]0.dll,msvcr[89]0.dll,vcomp[89]0.dll,atl1*.dll,atl.dll,concrt*.dll,msvcp1*.dll,msvcrt*.dll,msvcp7*.dll,msvcp6*.dll,msvcp_win.dll,msvcr1*.dll,msvcrt*.dll,msvcr7*.dll,vcamp1*.dll,vcomp1*.dll,vccorlib1*.dll,vcruntime1*.dll,ucrtbase.dll,comctl32.dll,ntdll.dll,vulkan-1.dll,ir50_32.dll
+True
+False

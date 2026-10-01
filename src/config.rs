@@ -24,7 +24,7 @@ impl Config {
             runner_dir: root.join("proton").join("ge-proton"),
             steamrt_dir: root.join("steamrt").join("steamrt4"),
             reaper_path: root.join("bin").join("reaper"),
-            prefix_dir: root.join("test").join("prefix"),
+            prefix_dir: root.join("prefix"),
             exe: game_dir.join(GAME_EXE),
             game_dir,
         })

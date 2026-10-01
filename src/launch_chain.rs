@@ -71,7 +71,8 @@ pub fn build(cfg: &Config, verb: &str) -> Command {
         // `=d` disables a DLL. Both are Steam-only pieces we don't have.
         .env("WINEDLLOVERRIDES", "lsteamclient=d;KRSDKExternal.exe=d")
         .env("SteamGameId", "0")
-        .env("SteamOS", "1");
+        .env("DXVK_HUD", "devinfo,fps,frametimes,gpuload,compiler")
+        .env("PROTON_ENABLE_WAYLAND", "1");
 
     cmd
 }

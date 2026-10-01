@@ -1,0 +1,411 @@
+Compressed File Name 2026-10-01T02-40-36.zip
+Initialize engine version: 2019.4.40f1 (aac03e0cdd)
+[Subsystems] Discovering subsystems at path S:/ZenlessZoneZero_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1  threadingMode:3
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti SUPER (ID=0x2705)
+    Vendor:   
+    VRAM:     16376 MB
+    Driver:   35.0.99.9999
+WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+ERROR: Shader Hidden/Universal Render Pipeline/RTXGI shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Unity.Timeline InitOdinNew Success
+miHoYoEmotion InitOdinNew Success
+PipelineCamera InitOdinNew Success
+Foundation InitOdinNew Success
+Logic InitOdinNew Success
+<RI> Initializing input.
+New input system (experimental) initialized
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.170600 ms
+currentCulture.Name:en-US
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+WwiseUnity: Wwise(R) SDK Version 2019.2.15 Build 7667.
+WwiseUnity: Setting Plugin DLL path to: S:/ZenlessZoneZero_Data\Plugins\x86_64
+WwiseUnity: Sound engine initialized successfully.
+Startup RegisterInputSystem.
+HTTP interceptors initialized
+config.ini is not exist
+currentCulture.Name:en-US
+Unloading 5 Unused Serialized files (Serialized files now loaded: 126)
+UnloadTime: 1.049100 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 45165.
+Total: 20.702900 ms (FindLiveObjects: 1.333800 ms CreateObjectMapping: 1.176000 ms MarkObjects: 18.149700 ms  DeleteObjects: 0.043100 ms)
+
+WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 926 
+SDKInit
+SetSDKEnv: 2
+jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
+jsonComplianceConfig: {"abtestOS":[{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"385"},"enable_envs":["2","5","11","20","21"]},{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"384"},"enable_envs":["3"]},{"app_id":"22","app_key":"4ab24089-92a5-4124-81c8-da8ad7833926","compliance_scene":{"compliance_scene_id":"200"},"enable_envs":["7","12"]}],"available":true}
+jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
+jsonComplianceConfig: {"abtestOS":[{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"385"},"enable_envs":["2","5","11","20","21"]},{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"384"},"enable_envs":["3"]},{"app_id":"22","app_key":"4ab24089-92a5-4124-81c8-da8ad7833926","compliance_scene":{"compliance_scene_id":"200"},"enable_envs":["7","12"]}],"available":true}
+LoadSkinColorConfig
+TelemetryInterface path:S:\ZenlessZoneZero_Data\SDKCaches, level:2, dest:0
+config.ini is not exist
+Request to set language:en, length:2
+Update region translation resources:en-us
+Update local region translation resources:en-us
+Update local region translation resources:en-us
+regionTranslationVersionCheck URL:https://webstatic.hoyoverse.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
+config.ini is not exist
+request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.54.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
+Set Game Version: OSPRODWin3.2.0
+HoYoPass.Initialize
+log strategy is updated to 0
+EventDispatcher: into InitResult
+OnHoYoPassInitResult: {"msg":"","ret":0}
+Initialize: HoYoPass_Initialize call success
+NativeTaskLogger:notice_check_pop_notice do not use native task.
+jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
+jsonComplianceConfig: {"abtestOS":[{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"385"},"enable_envs":["2","5","11","20","21"]},{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"384"},"enable_envs":["3"]},{"app_id":"22","app_key":"4ab24089-92a5-4124-81c8-da8ad7833926","compliance_scene":{"compliance_scene_id":"200"},"enable_envs":["7","12"]}],"available":true}
+PreLoadSWURL: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=0&mode=fullscreen&network=wifi&platform=pc&runtime_cache=false
+Init with offScreen: True
+Init with offScreen: True
+InitUI with offScreen: True
+mihoyosdk webview created: a518bd13853cdef76d6a222cb008d4bd512681d91790822459497
+InitCrashSDKConfig
+log strategy is updated to 0
+auth Ticket is empty
+CheckChannelLogin: false
+get and lock domain_region_enable: True
+EventDispatcher: into CurrentRegionUpdate
+set current domain region: US
+EventDispatcher: into DataReport
+AutoLogin: HoYoPass.AutoLogin method call succeeded
+ set enableUIVertexColorCalc to true!
+Logger Index is:1, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:2, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
+OnBoxConfigReady: forwarded box config to APM
+DeviceFPManager::CheckInvalidDeviceFpValue, invalid devicefp key is: MIHOYOSDK_GPU_NAME, value is: NVIDIA GeForce RTX 4070 Ti SUPER
+ThirdpartyLoginManager initialize success
+LoginManager initialize success
+start
+start
+Auto login by account model start
+[destroy] callsite=init  threw=False
+EventDispatcher: into CurrentRegionUpdate
+EventDispatcher: into LogStrategyUpdate
+EventDispatcher: into LoginResult
+use_new_compliance_flow: passport
+UpdateConfig: HoYoPass_UpdateConfig call success
+set current domain region: US
+CheckAgeGateVerificationEvent: false
+log strategy is updated to 0
+SetAPMAgeGate: 0 0
+Auto Login completes with retcode: 0
+IsAlreadyDetached is:False
+Logger Index is:3, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:4, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
+OnHoYoPassLoginResult: login result with code: OK
+ set enableUIVertexColorCalc to true!
+IsAlreadyDetached is:False
+ set enableUIVertexColorCalc to true!
+IsAlreadyDetached is:False
+OnLoginSucceeded: login Success
+GetReportType failed because of unsupported type 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Protocol has no update or no need to show pre-comboLogin protocol dialog
+IsAlreadyDetached is:True
+Logger Index is:5, received native_ui_hide event: MiHoYoSDKLoadingWheel,should not send notification because the native ui stack is already empty.
+ set enableUIVertexColorCalc to true!
+Logger Index is:6, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:7, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
+Try to get the region-specific url, key is comboLogin_us
+Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
+second level domain is:hoyoverse.com
+set cookies:lrsag 0 hoyoverse.com
+Webview perf time (ms) - init : 114
+ZenFulcrum.EmbeddedBrowser.JSONNode
+IsAlreadyDetached is:False
+Logger Index is:8, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:9, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
+into OnShowUI,  params is: {"event_name":"Login.SuccessTip","element_data":[{"id":"Login.SuccessTip.AccountIcon","action_index":0,"text":"Email","hint_text":"","visible":true,"is_checked":false,"type":0},{"id":"Login.SuccessTip.Tip","action_index":0,"text":"Welcome, su****77@gmail.com!","hint_text":"","visible":false,"is_checked":false,"type":0}]}
+
+Login.SuccessTip pluginui instance exist, show it.
+action index is 0, return directly.
+
+action index is 0, return directly.
+
+Login.SuccessTip pluginui is showed.
+second level domain is:hoyoverse.com
+set cookies:lrsag 0 hoyoverse.com
+set cookies:age_gate_country US hoyoverse.com
+web: 1 url: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=0&mode=fullscreen&network=wifi&platform=pc&runtime_cache=false,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
+Webview perf time (ms) - Load : 473
+disableExecuteAsync:0
+disableSRPHelper:0
+disableiOSShaderHibernation:0
+disablePSOCheck:0
+disableiOSGPUBufferOpt:0
+disableSkinMeshStrip:0
+disableAnimAllocatorOpt:0
+disableTexStreamingVisbilityOpt:0
+enableiOSShaderWarmupOnStartup:0
+disableSRPInstancing:0
+disableObjectInstanceCache:0
+disableMetalPSOCreateAsync:0
+disableAsyncSRPSubmit:0
+disableStepPreloadMonster:0
+disableAsyncUploadJob:0
+disableLoadSceneParallel:0
+disableIOSMTLHeapOpt:0
+disableVKPSOJob:0
+disableMetalShaderMemOpt:0
+disableFlatbufferNativeArrayOpt:0
+isKcp:1
+enablePhyManagerJob:0
+disableRayTracing:0
+disableMeshLet:0
+
+WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+ERROR: Shader Hidden/Universal Render Pipeline/RTXGI shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Texture: InternalLut_Char_4x4_RGB111110Float is released while Async SRP still running!! frame: 4728 
+Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 4728 
+WARNING: Shader Unsupported: 'ASE/Particle_Noise_Dissolve' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+MouseInputEnhancement启动
+Shader 'Spine/Outline/SkeletonGraphic': fallback shader 'Spine/SkeletonGraphic' not found
+ERROR: Shader Spine/Outline/SkeletonGraphic shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+wm_setEnable: begin: watermark input param : {"enable":false,"alpha":0.3,"width":3840,"height":2160}
+wm_setEnable: set to:False
+wm_setEnable: WM is disabled, hide wm
+wm_setWidth: set to:3840
+wm_setHeight: set to:2160
+wm_setAlpha: alpha set to:0.3
+apm_set_server_id: prod_gf_us
+Try to get the region-specific url, key is beforeVerify_us
+Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
+apm_set_server_id: prod_gf_us
+NativeTaskLogger:notice_check_pop_notice do not use native task.
+PreLoadSWURL: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=52&lrsag=0&mode=fullscreen&network=wifi&platform=pc&region=prod_gf_us&runtime_cache=true&uid=1008693226
+wm_initialize:WM is disabled
+ZenFulcrum.EmbeddedBrowser.JSONNode
+second level domain is:hoyoverse.com
+set cookies:lrsag 0 hoyoverse.com
+set cookies:age_gate_country US hoyoverse.com
+web: 1 url: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=52&lrsag=0&mode=fullscreen&network=wifi&platform=pc&region=prod_gf_us&runtime_cache=true&uid=1008693226,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
+Webview perf time (ms) - Load : 243
+red point response is: {"retcode":0,"message":"OK","data":{"infos":[]}}
+Unloading 3 Unused Serialized files (Serialized files now loaded: 2961)
+UnloadTime: 0.278600 ms
+
+Unloading 308 unused Assets to reduce memory usage. Loaded Objects now: 58737.
+Total: 111.466000 ms (FindLiveObjects: 1.590200 ms CreateObjectMapping: 2.052600 ms MarkObjects: 105.351900 ms  DeleteObjects: 2.471000 ms)
+
+A scripted object (probably PcgSceneAssetManager?) has a different serialization layout when loading. (Read 32 bytes but expected 3840 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
+(Filename:  Line: 2710)
+
+[5319][WorldGraph] [MainGraph_name:GroupGraph_600203422_2_id:3][GraphFlow_108][Frame:426] error : InteractData not find by name 
+UnityEngine.Logger:Log(LogType, Object)
+JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
+DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
+GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
+JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
+JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
+CJHDDJDCJBA:BMMHBOBJCAP(LCFDKEPNHOH&)
+GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
+JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
+JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
+PFGJJNMPLPH:GAMMDFLLNLN(MGKAHFFFNAC, KCFAEOPHMHA&)
+PFGJJNMPLPH:GAMMDFLLNLN(KCFAEOPHMHA&)
+BBIFFFFGMFK:NFPAJIBGHJE(KCFAEOPHMHA&)
+DIJHKMDJMND:DPGLFCJPAHL()
+MoleMole.GameEngine:Update()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+[5319][WorldGraph] [MainGraph_name:GroupGraph_600203424_2_id:4][GraphFlow_109][Frame:426] error : InteractData not find by name 
+UnityEngine.Logger:Log(LogType, Object)
+JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
+DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
+GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
+JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
+JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
+CJHDDJDCJBA:BMMHBOBJCAP(LCFDKEPNHOH&)
+GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
+JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
+JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
+PFGJJNMPLPH:GAMMDFLLNLN(MGKAHFFFNAC, KCFAEOPHMHA&)
+PFGJJNMPLPH:GAMMDFLLNLN(KCFAEOPHMHA&)
+BBIFFFFGMFK:NFPAJIBGHJE(KCFAEOPHMHA&)
+DIJHKMDJMND:DPGLFCJPAHL()
+MoleMole.GameEngine:Update()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+[5319][WorldGraph] 执行的Cmd过多 1152
+UnityEngine.Logger:Log(LogType, Object)
+DIJHKMDJMND:DPGLFCJPAHL()
+MoleMole.GameEngine:Update()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+[5319][WorldGraph] 执行的Cmd过多 790
+UnityEngine.Logger:Log(LogType, Object)
+DIJHKMDJMND:DPGLFCJPAHL()
+MoleMole.GameEngine:Update()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+SceneMechanismEffectManager.AddNode(): GameObject is null
+UnityEngine.Logger:Log(LogType, Object)
+AGHIDFPFPEC:CONJMFCBLPG()
+AGHIDFPFPEC:HKMGHFAKKOG()
+FNLGCNCMCAN:LGJBGCLHNGI(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+SceneMechanismEffectManager.AddNode(): GameObject is null
+UnityEngine.Logger:Log(LogType, Object)
+AGHIDFPFPEC:CONJMFCBLPG()
+AGHIDFPFPEC:HKMGHFAKKOG()
+FNLGCNCMCAN:LGJBGCLHNGI(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+SceneMechanismEffectManager.AddNode(): GameObject is null
+UnityEngine.Logger:Log(LogType, Object)
+AGHIDFPFPEC:CONJMFCBLPG()
+AGHIDFPFPEC:HKMGHFAKKOG()
+FNLGCNCMCAN:LGJBGCLHNGI(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+NapLodControllerManager AddJobData: group is null
+UnityEngine.Logger:Log(LogType, Object)
+OPBOEMDGHPL:CONJMFCBLPG()
+OPBOEMDGHPL:HKMGHFAKKOG()
+FNLGCNCMCAN:LGJBGCLHNGI(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 4705)
+UnloadTime: 6.191300 ms
+
+Unloading 141 unused Assets to reduce memory usage. Loaded Objects now: 76188.
+Total: 142.953500 ms (FindLiveObjects: 2.241500 ms CreateObjectMapping: 2.342800 ms MarkObjects: 136.998800 ms  DeleteObjects: 1.370100 ms)
+
+currentCulture.Name:en-US
+Unloading 2 Unused Serialized files (Serialized files now loaded: 368)
+UnloadTime: 0.271700 ms
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 46376.
+Total: 88.238400 ms (FindLiveObjects: 1.370700 ms CreateObjectMapping: 1.811800 ms MarkObjects: 84.948700 ms  DeleteObjects: 0.106900 ms)
+
+WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+SDKInit
+SetSDKEnv: 2
+jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
+jsonComplianceConfig: {"abtestOS":[{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"385"},"enable_envs":["2","5","11","20","21"]},{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"384"},"enable_envs":["3"]},{"app_id":"22","app_key":"4ab24089-92a5-4124-81c8-da8ad7833926","compliance_scene":{"compliance_scene_id":"200"},"enable_envs":["7","12"]}],"available":true}
+jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
+jsonComplianceConfig: {"abtestOS":[{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"385"},"enable_envs":["2","5","11","20","21"]},{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"384"},"enable_envs":["3"]},{"app_id":"22","app_key":"4ab24089-92a5-4124-81c8-da8ad7833926","compliance_scene":{"compliance_scene_id":"200"},"enable_envs":["7","12"]}],"available":true}
+LoadSkinColorConfig
+config.ini is not exist
+Request to set language:en, length:2
+Update region translation resources:en-us
+Update local region translation resources:en-us
+Update local region translation resources:en-us
+regionTranslationVersionCheck URL:https://webstatic.hoyoverse.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
+UpdateConfig: HoYoPass_UpdateConfig call success
+config.ini is not exist
+request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.54.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
+Set Game Version: OSPRODWin3.2.0
+HoYoPass.Initialize
+log strategy is updated to 0
+EventDispatcher: into InitResult
+OnHoYoPassInitResult: {"msg":"","ret":0}
+Initialize: HoYoPass_Initialize call success
+NativeTaskLogger:notice_check_pop_notice do not use native task.
+InitCrashSDKConfig
+log strategy is updated to 0
+web view render method: box config use legacy! no need request account list AB
+auth Ticket is empty
+CheckChannelLogin: false
+EventDispatcher: into CurrentRegionUpdate
+set current domain region: US
+EventDispatcher: into DataReport
+AutoLogin: HoYoPass.AutoLogin method call succeeded
+ set enableUIVertexColorCalc to true!
+Logger Index is:10, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:11, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
+OnBoxConfigReady: forwarded box config to APM
+ThirdpartyLoginManager initialize success
+LoginManager initialize success
+start
+start
+Auto login by account model start
+DeviceFPManager::CheckInvalidDeviceFpValue, invalid devicefp key is: MIHOYOSDK_GPU_NAME, value is: NVIDIA GeForce RTX 4070 Ti SUPER
+use_new_compliance_flow: passport
+EventDispatcher: into CurrentRegionUpdate
+EventDispatcher: into LogStrategyUpdate
+EventDispatcher: into LoginResult
+set current domain region: US
+CheckAgeGateVerificationEvent: false
+log strategy is updated to 0
+SetAPMAgeGate: 0 0
+Auto Login completes with retcode: 0
+IsAlreadyDetached is:False
+Logger Index is:12, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:13, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
+OnHoYoPassLoginResult: login result with code: OK
+ set enableUIVertexColorCalc to true!
+IsAlreadyDetached is:False
+into OnCloseUI,  params is: {"event_name":"Login.SuccessTip","element_data":[]}
+
+Login.SuccessTip pluginui is showing now, close it.
+ set enableUIVertexColorCalc to true!
+IsAlreadyDetached is:False
+OnLoginSucceeded: login Success
+GetReportType failed because of unsupported type 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Protocol has no update or no need to show pre-comboLogin protocol dialog
+IsAlreadyDetached is:True
+Logger Index is:14, received native_ui_hide event: MiHoYoSDKLoadingWheel,should not send notification because the native ui stack is already empty.
+ set enableUIVertexColorCalc to true!
+Logger Index is:15, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:16, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
+Try to get the region-specific url, key is comboLogin_us
+Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
+UpdateConfig: HoYoPass_UpdateConfig call success
+IsAlreadyDetached is:False
+Logger Index is:17, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:18, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
+into OnShowUI,  params is: {"event_name":"Login.SuccessTip","element_data":[{"id":"Login.SuccessTip.AccountIcon","action_index":0,"text":"Email","hint_text":"","visible":true,"is_checked":false,"type":0},{"id":"Login.SuccessTip.Tip","action_index":0,"text":"Welcome, su****77@gmail.com!","hint_text":"","visible":false,"is_checked":false,"type":0}]}
+
+Login.SuccessTip pluginui instance exist, show it.
+action index is 0, return directly.
+
+action index is 0, return directly.
+
+Login.SuccessTip pluginui is showed.
+WwiseUnity: Sound engine terminate.
+Application will quit.
+On Application quit
+Uninitialize: HoYoPass_Uninitialize call success
+log strategy is updated to 0
+OnApplicationQuit
+[destroy] callsite=shutdown  threw=False
