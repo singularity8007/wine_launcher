@@ -78363,12 +78363,12 @@ WINE REGISTRY Version 2
 "MinLevel"=dword:00012000
 "RecommendedLevel"=dword:00012000
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{00A38006-70D2-48FB-958D-560835DFD3EA}] 1790822736
-#time=1dd514ef010b5ca
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{00A38006-70D2-48FB-958D-560835DFD3EA}] 1790895105
+#time=1dd51f76f5e3e08
 "DeviceState"=dword:00000001
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{00A38006-70D2-48FB-958D-560835DFD3EA}\\Properties] 1790820634
-#time=1dd514a0b228fb4
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{00A38006-70D2-48FB-958D-560835DFD3EA}\\Properties] 1790893279
+#time=1dd51f32ea3846c
 "{026e516e-b814-414b-83cd-856d6fef4822},2"="Built-in Audio Analog Stereo"
 "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},0"=dword:00000004
 "{233164c8-1b2c-4c7d-bc68-b671687a2567},1"="{00A38006-70D2-48FB-958D-560835DFD3EA}"
@@ -78377,7 +78377,7 @@ WINE REGISTRY Version 2
 "{a45c254e-df1c-4efd-8020-67d146a850e0},11"="winepulse.drv"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},14"="Microphone (Built-in Audio Analog Stereo)"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},2"="Microphone"
-"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_8086&DEV_7A50\\312&35DFD3EA"
+"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_8086&DEV_7A50\\1765&35DFD3EA"
 "{e4870e26-3cc5-4cd2-ba46-ca0a9a70ed04},3"=hex:fe,ff,02,00,80,bb,00,00,00,ee,\
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
@@ -78385,12 +78385,12 @@ WINE REGISTRY Version 2
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{09ACBB72-7624-4AFB-B7D8-9E8F230EFE7E}] 1790822736
-#time=1dd514ef0109b4e
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{09ACBB72-7624-4AFB-B7D8-9E8F230EFE7E}] 1790895105
+#time=1dd51f76f5dc4d2
 "DeviceState"=dword:00000001
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{09ACBB72-7624-4AFB-B7D8-9E8F230EFE7E}\\Properties] 1790820634
-#time=1dd514a0b2261ec
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{09ACBB72-7624-4AFB-B7D8-9E8F230EFE7E}\\Properties] 1790893279
+#time=1dd51f32ea45a36
 "{026e516e-b814-414b-83cd-856d6fef4822},2"="Monitor of Built-in Audio Analog Stereo"
 "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},0"=dword:00000002
 "{233164c8-1b2c-4c7d-bc68-b671687a2567},1"="{09ACBB72-7624-4AFB-B7D8-9E8F230EFE7E}"
@@ -78399,7 +78399,7 @@ WINE REGISTRY Version 2
 "{a45c254e-df1c-4efd-8020-67d146a850e0},11"="winepulse.drv"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},14"="Microphone (Monitor of Built-in Audio Analog Stereo)"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},2"="Microphone"
-"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_8086&DEV_7A50\\311&230EFE7E"
+"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_8086&DEV_7A50\\1764&230EFE7E"
 "{e4870e26-3cc5-4cd2-ba46-ca0a9a70ed04},3"=hex:fe,ff,02,00,80,bb,00,00,00,ee,\
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
@@ -78407,8 +78407,8 @@ WINE REGISTRY Version 2
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{698037AF-E52A-4430-B17E-953B7FC9D564}] 1790822736
-#time=1dd514ef0108334
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{698037AF-E52A-4430-B17E-953B7FC9D564}] 1790895105
+#time=1dd51f76f5d3878
 "DeviceState"=dword:00000001
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{698037AF-E52A-4430-B17E-953B7FC9D564}\\Properties] 1790820634
@@ -78429,12 +78429,12 @@ WINE REGISTRY Version 2
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{905A8EE6-4A36-49F7-AB40-280F9D8EB43A}] 1790822736
-#time=1dd514ef010d028
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{905A8EE6-4A36-49F7-AB40-280F9D8EB43A}] 1790895105
+#time=1dd51f76f5ea9b0
 "DeviceState"=dword:00000001
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{905A8EE6-4A36-49F7-AB40-280F9D8EB43A}\\Properties] 1790820634
-#time=1dd514a0b22c006
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Capture\\{905A8EE6-4A36-49F7-AB40-280F9D8EB43A}\\Properties] 1790893279
+#time=1dd51f32ea4992e
 "{026e516e-b814-414b-83cd-856d6fef4822},2"="Monitor of AD103 High Definition Audio Controller"
 "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},0"=dword:00000002
 "{233164c8-1b2c-4c7d-bc68-b671687a2567},1"="{905A8EE6-4A36-49F7-AB40-280F9D8EB43A}"
@@ -78443,7 +78443,7 @@ WINE REGISTRY Version 2
 "{a45c254e-df1c-4efd-8020-67d146a850e0},11"="winepulse.drv"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},14"="Microphone (Monitor of AD103 High Definition Audio Controller)"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},2"="Microphone"
-"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_10DE&DEV_22BB\\313&9D8EB43A"
+"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_10DE&DEV_22BB\\1772&9D8EB43A"
 "{e4870e26-3cc5-4cd2-ba46-ca0a9a70ed04},3"=hex:fe,ff,02,00,80,bb,00,00,00,ee,\
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
@@ -78451,12 +78451,12 @@ WINE REGISTRY Version 2
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{41DB166D-251B-4158-8F66-B6A88FD32706}] 1790822736
-#time=1dd514ef0106840
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{41DB166D-251B-4158-8F66-B6A88FD32706}] 1790895105
+#time=1dd51f76f5ccb68
 "DeviceState"=dword:00000001
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{41DB166D-251B-4158-8F66-B6A88FD32706}\\Properties] 1790820634
-#time=1dd514a0b220472
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{41DB166D-251B-4158-8F66-B6A88FD32706}\\Properties] 1790893279
+#time=1dd51f32ea4b684
 "{026e516e-b814-414b-83cd-856d6fef4822},2"="AD103 High Definition Audio Controller Digital Stereo (HDMI)"
 "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},0"=dword:00000001
 "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},3"=dword:00000003
@@ -78466,7 +78466,7 @@ WINE REGISTRY Version 2
 "{a45c254e-df1c-4efd-8020-67d146a850e0},11"="winepulse.drv"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},14"="Speakers (AD103 High Definition Audio Controller Digital Stereo (HDMI))"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},2"="Speakers"
-"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_10DE&DEV_22BB\\313&8FD32706"
+"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_10DE&DEV_22BB\\1772&8FD32706"
 "{e4870e26-3cc5-4cd2-ba46-ca0a9a70ed04},3"=hex:fe,ff,02,00,80,bb,00,00,00,ee,\
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
@@ -78474,8 +78474,8 @@ WINE REGISTRY Version 2
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{9D422105-F190-48CC-B208-2FB1E78D3530}] 1790822736
-#time=1dd514ef01033de
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{9D422105-F190-48CC-B208-2FB1E78D3530}] 1790895105
+#time=1dd51f76f5c118c
 "DeviceState"=dword:00000001
 
 [Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{9D422105-F190-48CC-B208-2FB1E78D3530}\\Properties] 1790820634
@@ -78497,12 +78497,12 @@ WINE REGISTRY Version 2
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{D109575B-FA3E-4746-AC30-33B9C40BB4D3}] 1790822736
-#time=1dd514ef0104d7e
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{D109575B-FA3E-4746-AC30-33B9C40BB4D3}] 1790895105
+#time=1dd51f76f5c686c
 "DeviceState"=dword:00000001
 
-[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{D109575B-FA3E-4746-AC30-33B9C40BB4D3}\\Properties] 1790820634
-#time=1dd514a0b21d6b4
+[Software\\Microsoft\\Windows\\CurrentVersion\\MMDevices\\Audio\\Render\\{D109575B-FA3E-4746-AC30-33B9C40BB4D3}\\Properties] 1790893279
+#time=1dd51f32ea4f054
 "{026e516e-b814-414b-83cd-856d6fef4822},2"="Built-in Audio Analog Stereo"
 "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},0"=dword:00000001
 "{1da5d803-d492-4edd-8c23-e0c0ffee7f0e},3"=dword:00000003
@@ -78512,7 +78512,7 @@ WINE REGISTRY Version 2
 "{a45c254e-df1c-4efd-8020-67d146a850e0},11"="winepulse.drv"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},14"="Speakers (Built-in Audio Analog Stereo)"
 "{a45c254e-df1c-4efd-8020-67d146a850e0},2"="Speakers"
-"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_8086&DEV_7A50\\311&C40BB4D3"
+"{b3f8fa53-0004-438e-9003-51a46e139bfc},2"="{1}.HDAUDIO\\FUNC_01&VEN_8086&DEV_7A50\\1764&C40BB4D3"
 "{e4870e26-3cc5-4cd2-ba46-ca0a9a70ed04},3"=hex:fe,ff,02,00,80,bb,00,00,00,ee,\
   02,00,04,00,10,00,16,00,10,00,03,00,00,00,01,00,00,00,00,00,10,00,80,00,00,\
   aa,00,38,9b,71
@@ -80687,8 +80687,8 @@ WINE REGISTRY Version 2
 #time=1dd2f768196f90a
 "MAPI"="1"
 
-[Software\\Microsoft\\Windows NT\\CurrentVersion] 1790822712
-#time=1dd514ee1784e2e
+[Software\\Microsoft\\Windows NT\\CurrentVersion] 1790895082
+#time=1dd51f7613a1d42
 "CurrentBuild"="19045"
 "CurrentBuildNumber"="19045"
 "CurrentMajorVersionNumber"=dword:0000000a
@@ -93173,13 +93173,13 @@ WINE REGISTRY Version 2
 @="Disk drives"
 "Class"="DiskDrive"
 
-[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}] 1790822712
-#time=1dd514ee1cbf3a8
+[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}] 1790895082
+#time=1dd51f7617513de
 @="Display adapters"
 "Class"="Display"
 
-[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000] 1790822712
-#time=1dd514ee1cbf538
+[System\\ControlSet001\\Control\\Class\\{4D36E968-E325-11CE-BFC1-08002BE10318}\\0000] 1790895082
+#time=1dd51f76175155a
 "DriverDate"="10-1-2026"
 "DriverDateData"=hex:00,c0,46,cd,37,51,dd,01
 "DriverDesc"="NVIDIA GeForce RTX 4070 Ti SUPER"
@@ -93195,13 +93195,13 @@ WINE REGISTRY Version 2
 #time=1dd514a0b218916
 "Class"="MEDIA"
 
-[System\\ControlSet001\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}] 1790822712
-#time=1dd514ee1cc3304
+[System\\ControlSet001\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}] 1790895082
+#time=1dd51f761752572
 @="Monitors"
 "Class"="Monitor"
 
-[System\\ControlSet001\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000] 1790822712
-#time=1dd514ee1cc3304
+[System\\ControlSet001\\Control\\Class\\{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000] 1790895082
+#time=1dd51f761752572
 
 [System\\ControlSet001\\Control\\Class\\{4d36e978-e325-11ce-bfc1-08002be10318}] 1787101391
 #time=1dd2f7681940344
@@ -93301,8 +93301,8 @@ WINE REGISTRY Version 2
 #time=1dd4f9949bc1cac
 "SymbolicLink"="\\\\?\\WINEBTH#RADIO#_ORG_BLUEZ_HCI0#{0850302A-B344-4FDA-9BE9-90576B8D46F0}"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}\\##?#PCI#VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00#00000000#{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}] 1790822712
-#time=1dd514ee1cbf72c
+[System\\ControlSet001\\Control\\DeviceClasses\\{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}\\##?#PCI#VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00#00000000#{1CA05180-A699-450A-9A0C-DE4FBE3DDD89}] 1790895082
+#time=1dd51f761751726
 "DeviceInstance"="PCI\\VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00\\00000000"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{2EEF81BE-33FA-4800-9670-1CD474972C3F}\\##?#SWD#MMDEVAPI#{0.0.1.00000000}.{00A38006-70D2-48FB-958D-560835DFD3EA}#{2EEF81BE-33FA-4800-9670-1CD474972C3F}] 1790820634
@@ -93341,36 +93341,36 @@ WINE REGISTRY Version 2
 #time=1dd2f7682751258
 "DeviceInstance"="HID\\VID_845E&PID_0001\\0&0000&0&0&0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#HID#VID_845E&PID_0001#0&0000&0&0&0#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\#] 1790822712
-#time=1dd514ee188d712
+[System\\ControlSet001\\Control\\DeviceClasses\\{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\##?#HID#VID_845E&PID_0001#0&0000&0&0&0#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}\\#] 1790895082
+#time=1dd51f7614fc37c
 "SymbolicLink"="\\\\?\\HID#VID_845E&PID_0001#0&0000&0&0&0#{378DE44C-56EF-11D1-BC8C-00A0C91405DD}"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_845E&PID_0001#0&0000&0&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}] 1787101393
 #time=1dd2f7682750c04
 "DeviceInstance"="HID\\VID_845E&PID_0001\\0&0000&0&0&0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_845E&PID_0001#0&0000&0&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}\\#] 1790822712
-#time=1dd514ee188c2ea
+[System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_845E&PID_0001#0&0000&0&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}\\#] 1790895082
+#time=1dd51f7614f994c
 "SymbolicLink"="\\\\?\\HID#VID_845E&PID_0001#0&0000&0&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_845E&PID_0002#0&0000FFFFFFFF0002845E&0&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}] 1787101393
 #time=1dd2f76827a7ba8
 "DeviceInstance"="HID\\VID_845E&PID_0002\\0&0000FFFFFFFF0002845E&0&0&0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_845E&PID_0002#0&0000FFFFFFFF0002845E&0&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}\\#] 1790822712
-#time=1dd514ee1880cc4
+[System\\ControlSet001\\Control\\DeviceClasses\\{4D1E55B2-F16F-11CF-88CB-001111000030}\\##?#HID#VID_845E&PID_0002#0&0000FFFFFFFF0002845E&0&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}\\#] 1790895082
+#time=1dd51f7614c38ec
 "SymbolicLink"="\\\\?\\HID#VID_845E&PID_0002#0&0000FFFFFFFF0002845E&0&0&0#{4D1E55B2-F16F-11CF-88CB-001111000030}"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{5B45201D-F2F2-4F3B-85BB-30FF1F953599}\\##?#PCI#VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00#00000000#{5B45201D-F2F2-4F3B-85BB-30FF1F953599}] 1790822712
-#time=1dd514ee1cbf5e2
+[System\\ControlSet001\\Control\\DeviceClasses\\{5B45201D-F2F2-4F3B-85BB-30FF1F953599}\\##?#PCI#VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00#00000000#{5B45201D-F2F2-4F3B-85BB-30FF1F953599}] 1790895082
+#time=1dd51f7617515fa
 "DeviceInstance"="PCI\\VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00\\00000000"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#HID#VID_845E&PID_0002#0&0000FFFFFFFF0002845E&0&0&0#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}] 1787101393
 #time=1dd2f76827a876a
 "DeviceInstance"="HID\\VID_845E&PID_0002\\0&0000FFFFFFFF0002845E&0&0&0"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#HID#VID_845E&PID_0002#0&0000FFFFFFFF0002845E&0&0&0#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\#] 1790822712
-#time=1dd514ee188515c
+[System\\ControlSet001\\Control\\DeviceClasses\\{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\##?#HID#VID_845E&PID_0002#0&0000FFFFFFFF0002845E&0&0&0#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}\\#] 1790895082
+#time=1dd51f7614ec008
 "SymbolicLink"="\\\\?\\HID#VID_845E&PID_0002#0&0000FFFFFFFF0002845E&0&0&0#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}"
 
 [System\\ControlSet001\\Control\\DeviceClasses\\{92383B0E-F90E-4AC9-8D44-8C2D0D0EBDA2}\\##?#WINEBTH#RADIO#_ORG_BLUEZ_HCI0#{92383B0E-F90E-4AC9-8D44-8C2D0D0EBDA2}] 1787101393
@@ -93405,17 +93405,17 @@ WINE REGISTRY Version 2
 #time=1dd514a0b21cd9a
 "SymbolicLink"="\\\\?\\SWD#MMDEVAPI#{0.0.0.00000000}.{D109575B-FA3E-4746-AC30-33B9C40BB4D3}#{E6327CAD-DCEC-4949-AE8A-991E976A79D2}"
 
-[System\\ControlSet001\\Control\\DeviceClasses\\{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}\\##?#DISPLAY#Default_Monitor#0000&0000#{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}] 1790822713
-#time=1dd514ee1f2cf6e
+[System\\ControlSet001\\Control\\DeviceClasses\\{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}\\##?#DISPLAY#Default_Monitor#0000&0000#{E6F07B5F-EE97-4A90-B076-33F57BF4EAA7}] 1790895084
+#time=1dd51f762dacca0
 "DeviceInstance"="DISPLAY\\DEFAULT_MONITOR\\0000&0000"
 
-[System\\ControlSet001\\Control\\DeviceContainers\\{0001845e-0000-ffff-d42d-4eec28000000}\\BaseContainers\\{0001845e-0000-ffff-d42d-4eec28000000}] 1790822712
-#time=1dd514ee188819a
+[System\\ControlSet001\\Control\\DeviceContainers\\{0001845e-0000-ffff-ad54-759a35000000}\\BaseContainers\\{0001845e-0000-ffff-ad54-759a35000000}] 1790895082
+#time=1dd51f7614f307e
 "HID\\VID_845E&PID_0001\\0&0000&0&0&0"=hex(0):
 "WINEBUS\\VID_845E&PID_0001\\0&0000&0&0&0"=hex(0):
 
-[System\\ControlSet001\\Control\\DeviceContainers\\{0002845e-0000-ffff-7d2f-4eec28000000}\\BaseContainers\\{0002845e-0000-ffff-7d2f-4eec28000000}] 1790822712
-#time=1dd514ee1875d56
+[System\\ControlSet001\\Control\\DeviceContainers\\{0002845e-0000-ffff-1157-759a35000000}\\BaseContainers\\{0002845e-0000-ffff-1157-759a35000000}] 1790895082
+#time=1dd51f7614bff08
 "HID\\VID_845E&PID_0002\\0&0000FFFFFFFF0002845E&0&0&0"=hex(0):
 "WINEBUS\\VID_845E&PID_0002\\0&0000FFFFFFFF0002845E&0&0&0"=hex(0):
 
@@ -94643,8 +94643,8 @@ WINE REGISTRY Version 2
 #time=1dd2f768197a2f6
 "DefaultSpoolDirectory"="C:\\windows\\system32\\spool\\printers"
 
-[System\\ControlSet001\\Control\\Print\\Printers\\HP_LaserJet_Pro_M148dw_841B54] 1790822715
-#time=1dd514ee34b3662
+[System\\ControlSet001\\Control\\Print\\Printers\\HP_LaserJet_Pro_M148dw_841B54] 1790895084
+#time=1dd51f762d4a924
 "Attributes"=dword:00000000
 "Datatype"="RAW"
 "Default DevMode"=hex:48,50,5f,4c,61,73,65,72,4a,65,74,5f,50,72,6f,5f,4d,31,34,\
@@ -94846,6 +94846,9 @@ WINE REGISTRY Version 2
 "StandardName"="Central Standard Time"
 "TimeZoneKeyName"="Central Standard Time"
 
+[System\\ControlSet001\\Control\\Video\\0000] 1790893273
+#time=1dd51f32b692e96
+
 [System\\ControlSet001\\Control\\VirtualDeviceDrivers] 1787101391
 #time=1dd2f7681971548
 
@@ -94856,46 +94859,46 @@ WINE REGISTRY Version 2
 #time=1dd2f7680d0c532
 "CSDVersion"=dword:00000000
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000] 1790822712
-#time=1dd514ee1cc2e68
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000] 1790895082
+#time=1dd51f76175225c
 "Class"="Monitor"
 "ClassGUID"="{4D36E96E-E325-11CE-BFC1-08002BE10318}"
 "DeviceDesc"="Generic Non-PnP Monitor"
 "Driver"="{4D36E96E-E325-11CE-BFC1-08002BE10318}\\0000"
 "HardwareID"=str(7):"MONITOR\\Default_Monitor\0"
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Device Parameters] 1790822712
-#time=1dd514ee1cc2d32
-"EDID"=hex:00,ff,ff,ff,ff,ff,ff,00,00,00,00,00,00,00,00,00,00,00,01,04,a0,40,\
-  24,00,06,00,00,00,00,00,00,00,00,00,00,00,00,00,01,01,01,01,01,01,01,01,01,\
-  01,01,01,01,01,01,01,8d,ca,00,20,f6,70,be,80,60,b0,35,50,40,24,00,00,00,1c,\
-  00,00,00,fc,00,44,65,66,61,75,6c,74,00,00,00,00,00,00,00,00,00,10,00,00,00,\
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Device Parameters] 1790895082
+#time=1dd51f7617521ee
+"EDID"=hex:00,ff,ff,ff,ff,ff,ff,00,00,00,00,00,00,00,00,00,ff,1f,01,04,f5,46,\
+  27,78,02,ee,91,a3,54,4c,99,26,0f,50,54,00,00,00,01,01,01,01,01,01,01,01,01,\
+  01,01,01,01,01,01,01,2f,e8,00,50,f0,70,36,80,08,20,68,00,b9,88,21,00,00,1e,\
+  00,00,00,fc,00,4d,32,38,55,0a,20,20,20,20,20,20,20,20,00,00,00,10,00,00,00,\
   00,00,00,00,00,00,00,00,00,00,00,00,00,00,10,00,00,00,00,00,00,00,00,00,00,\
-  00,00,00,00,00,d6
+  00,00,00,00,00,04
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0004] 1790822712
-#time=1dd514ee1cc2fa8
-@=hex(ffff1003):00,00,00,00,00,00,00,00,00,0f,00,00,2d,08,00,00
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0004] 1790895082
+#time=1dd51f761752310
+@=hex(ffff1003):00,00,00,00,00,00,00,00,00,0f,00,00,70,08,00,00
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0006] 1790822712
-#time=1dd514ee1cc326e
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{233a9ef3-afc4-4abd-b564-c32f21f1535b}\\0006] 1790895082
+#time=1dd51f76175250e
 @=hex(ffff0011):00,00,00,00
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0001] 1790822712
-#time=1dd514ee1cc3142
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0001] 1790895082
+#time=1dd51f761752432
 @=hex(ffff0008):ef,03,00,00,00,00,00,00
 
-[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0002] 1790822712
-#time=1dd514ee1cc31e2
+[System\\ControlSet001\\Enum\\DISPLAY\\Default_Monitor\\0000&0000\\Properties\\{CA085853-16CE-48AA-B114-DE9C72334223}\\0002] 1790895082
+#time=1dd51f7617524a0
 @=hex(ffff0007):00,00,00,00
 
-[System\\ControlSet001\\Enum\\HID\\VID_845E&PID_0001\\0&0000&0&0&0] 1790822712
-#time=1dd514ee1888230
+[System\\ControlSet001\\Enum\\HID\\VID_845E&PID_0001\\0&0000&0&0&0] 1790895082
+#time=1dd51f7614f31c8
 "Class"="HIDClass"
 "ClassGUID"="{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}"
 "CompatibleIDs"=str(7):""
 "ConfigFlags"=dword:00000000
-"ContainerId"="{0001845E-0000-FFFF-D42D-4EEC28000000}"
+"ContainerId"="{0001845E-0000-FFFF-AD54-759A35000000}"
 "DeviceDesc"="Wine HID device"
 "Driver"="{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}\\0001"
 "HardwareId"=str(7):"HID\\VID_845E&PID_0001\0HID\\VID_845E&UP:0001_U:0002\0HID_DEVICE_UP:0001_U:0002\0HID_DEVICE\0"
@@ -94914,13 +94917,13 @@ WINE REGISTRY Version 2
 #time=1dd2f76827540ca
 @=hex(ffff2012):00,00
 
-[System\\ControlSet001\\Enum\\HID\\VID_845E&PID_0002\\0&0000FFFFFFFF0002845E&0&0&0] 1790822712
-#time=1dd514ee1875dba
+[System\\ControlSet001\\Enum\\HID\\VID_845E&PID_0002\\0&0000FFFFFFFF0002845E&0&0&0] 1790895082
+#time=1dd51f7614bffb2
 "Class"="HIDClass"
 "ClassGUID"="{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}"
 "CompatibleIDs"=str(7):""
 "ConfigFlags"=dword:00000000
-"ContainerId"="{0002845E-0000-FFFF-7D2F-4EEC28000000}"
+"ContainerId"="{0002845E-0000-FFFF-1157-759A35000000}"
 "DeviceDesc"="Wine HID device"
 "Driver"="{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}\\0003"
 "HardwareId"=str(7):"HID\\VID_845E&PID_0002\0HID\\VID_845E&UP:0001_U:0006\0HID_DEVICE_UP:0001_U:0006\0HID_DEVICE\0"
@@ -94956,8 +94959,8 @@ WINE REGISTRY Version 2
 #time=1dd2f7680b7d9be
 @=hex(ffff000d):41,4f,6b,51,0c,90,7d,4e,c9,45,42,46,b0,8b,70,c0
 
-[System\\ControlSet001\\Enum\\PCI\\VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00\\00000000\\Properties\\{540B947E-8B40-45BC-A8A2-6A0B894CBDA2}\\0005] 1790822712
-#time=1dd514ee1cbf2cc
+[System\\ControlSet001\\Enum\\PCI\\VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00\\00000000\\Properties\\{540B947E-8B40-45BC-A8A2-6A0B894CBDA2}\\0005] 1790895082
+#time=1dd51f76175130c
 @=hex(ffff0011):01,00,00,00
 
 [System\\ControlSet001\\Enum\\PCI\\VEN_10DE&DEV_2705&SUBSYS_00000000&REV_00\\00000000\\Properties\\{60B193CB-5276-4D0F-96FC-F173ABAD3EC6}\\0002] 1787101390
@@ -95149,13 +95152,13 @@ WINE REGISTRY Version 2
 #time=1dd2f7682634e6a
 @=hex(ffff0012):73,00,70,00,69,00,72
 
-[System\\ControlSet001\\Enum\\WINEBUS\\VID_845E&PID_0001\\0&0000&0&0&0] 1790822712
-#time=1dd514ee17c2620
+[System\\ControlSet001\\Enum\\WINEBUS\\VID_845E&PID_0001\\0&0000&0&0&0] 1790895082
+#time=1dd51f76142393c
 "Class"="HIDClass"
 "ClassGUID"="{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}"
 "CompatibleIDs"=str(7):"WINEBUS\\WINE_COMP_HID\0"
 "ConfigFlags"=dword:00000000
-"ContainerId"="{0001845E-0000-FFFF-D42D-4EEC28000000}"
+"ContainerId"="{0001845E-0000-FFFF-AD54-759A35000000}"
 "DeviceDesc"="Wine HID compatible device"
 "Driver"="{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}\\0000"
 "HardwareId"=str(7):"WINEBUS\\VID_845E&PID_0001\0"
@@ -95189,13 +95192,13 @@ WINE REGISTRY Version 2
 @=hex(ffff0012):57,00,69,00,6e,00,65,00,20,00,48,00,49,00,44,00,20,00,6d,00,6f,\
   00,75,00,73,00,65,00,00,00
 
-[System\\ControlSet001\\Enum\\WINEBUS\\VID_845E&PID_0002\\0&0000FFFFFFFF0002845E&0&0&0] 1790822712
-#time=1dd514ee186b360
+[System\\ControlSet001\\Enum\\WINEBUS\\VID_845E&PID_0002\\0&0000FFFFFFFF0002845E&0&0&0] 1790895082
+#time=1dd51f7614b9a18
 "Class"="HIDClass"
 "ClassGUID"="{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}"
 "CompatibleIDs"=str(7):"WINEBUS\\WINE_COMP_HID\0"
 "ConfigFlags"=dword:00000000
-"ContainerId"="{0002845E-0000-FFFF-7D2F-4EEC28000000}"
+"ContainerId"="{0002845E-0000-FFFF-1157-759A35000000}"
 "DeviceDesc"="Wine HID compatible device"
 "Driver"="{745A17A0-74D3-11D0-B6FE-00A0C90F57DA}\\0002"
 "HardwareId"=str(7):"WINEBUS\\VID_845E&PID_0002\0"
@@ -95312,6 +95315,527 @@ WINE REGISTRY Version 2
 "PreshutdownTimeout"=dword:0002bf20
 "Start"=dword:00000003
 "Type"=dword:00000010
+
+[System\\ControlSet001\\Services\\HoYoProtect] 1790894727
+#time=1dd51f68e152c9a
+"ConfigData"=hex:8a,85,d5,42,42,e7,82,32,4d,79,1d,82,68,08,b7,da,d5,f4,b2,b4,\
+  99,c2,06,0c,06,0b,db,1a,45,1b,e5,5e,ed,ad,42,20,b6,3e,c0,99,54,fe,b9,8a,7e,\
+  7f,b6,82,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,1e,70,6c,75,91,b9,f5,3f,67,0a,45,c1,05,67,b2,0c,\
+  5c,b3,01,ac,7a,23,a4,85,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,1e,70,6c,75,91,b9,f5,3f,8a,02,4b,\
+  49,58,f6,9c,22,74,eb,d0,31,f9,46,34,b6,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,e2,a8,4e,57,c1,0a,c0,fd,35,97,be,9d,67,2b,9f,11,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,1e,\
+  70,6c,75,91,b9,f5,3f,88,f8,67,71,6b,cd,af,76,d0,8f,c2,de,15,4a,1f,e6,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,34,a2,0e,1d,be,\
+  0a,ff,a9,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,75,23,12,c3,03,5f,a7,0a,\
+  63,6f,68,bc,d7,a8,67,19,c5,e8,02,0d,7e,40,a0,b3,a9,46,b0,a8,48,a3,8e,e4,25,\
+  5f,d8,1f,cd,ca,b1,66,d0,2f,91,5d,87,0c,e8,d0,0e,64,b5,43,60,7a,bb,c9,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,51,02,92,91,d3,9e,7c,e5,d9,cf,61,\
+  b6,2f,db,3f,2f,9b,1c,85,10,df,6e,fe,d7,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,7d,37,e4,33,51,19,59,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,e5,74,d9,80,bc,0e,e9,12,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,be,db,9b,59,6c,03,b4,16,f7,4d,e2,70,b7,\
+  e3,9d,33,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,1e,70,6c,75,91,b9,f5,3f,c7,19,00,df,7e,0b,84,ad,\
+  e1,e1,d1,14,23,47,a1,05,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,1e,70,6c,75,91,b9,f5,3f,42,39,b4,\
+  b4,06,87,e3,dd,e9,5c,e4,a7,28,bc,3e,8e,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,1e,70,6c,75,91,b9,\
+  f5,3f,4d,e9,f0,96,01,a9,1d,b2,7f,9f,97,d7,27,cc,cc,fe,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,1e,\
+  70,6c,75,91,b9,f5,3f,20,57,a3,ef,cc,a6,6f,ed,5d,a0,40,9d,ce,02,24,3e,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,1e,70,6c,75,91,b9,f5,3f,f6,8b,90,53,fc,a0,1f,ef,32,82,18,ea,b5,\
+  9c,c8,33,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,1e,70,6c,75,91,b9,f5,3f,80,01,c6,7b,03,b4,ac,a8,\
+  65,02,82,fe,29,4a,5a,7f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,1e,70,6c,75,91,b9,f5,3f,7e,f5,7a,\
+  8e,5f,54,ef,e3,df,f0,dd,23,a9,3f,0b,32,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,49,60,17,38,33,be,9c,91,8f,fb,e8,67,37,15,46,06,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,8e,c6,6f,13,18,3c,bd,14,b7,48,03,8c,01,eb,e5,28,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,5a,a8,63,b9,4d,dd,d1,ac,bf,c8,02,c5,f8,\
+  69,d8,ad,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,1e,70,6c,75,91,b9,f5,3f,b7,2e,c2,3b,8a,ec,17,4d,\
+  bc,46,a1,ab,bd,bf,a1,dc,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,56,88,09,\
+  ba,97,02,98,3b,15,c1,6c,d0,4b,6f,9a,03,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,c9,b8,51,1f,db,eb,c0,bc,e1,fc,44,0e,8f,4a,ee,c2,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,c7,4f,a9,64,e0,ee,ce,19,d9,27,68,a6,87,c3,ef,40,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,fa,8e,11,7b,15,48,93,f9,18,f2,1b,45,21,\
+  19,95,77,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,c5,6f,06,22,f4,c4,32,af,\
+  86,ca,e9,32,0e,07,aa,d0,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,0a,95,33,\
+  d1,2c,33,19,9c,96,25,62,cb,b4,65,b6,e1,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d5,af,23,07,27,f5,66,60,71,69,06,7f,c7,b4,e0,aa,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,4c,1d,8b,9c,47,47,54,77,de,46,7c,ec,3f,27,6a,16,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,de,7b,79,cf,52,f0,52,47,0f,d5,a7,58,6e,\
+  96,8d,47,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,fe,ee,01,d0,a9,53,b8,0f,\
+  8b,ba,e8,27,1f,9b,cc,f8,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,87,86,07,\
+  da,30,76,64,c2,05,83,37,4a,3f,7a,48,b0,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,f2,33,e5,49,d7,80,13,9f,e8,47,66,0f,ef,ed,20,86,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,07,5e,e3,51,9f,87,e9,78,cc,f8,37,2c,87,40,f3,9d,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,56,8d,e0,e7,1d,4f,43,05,d3,3e,f6,de,88,\
+  20,95,ee,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,a6,e8,bf,09,fa,19,14,a6,\
+  d8,86,06,59,47,55,70,f1,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,17,7e,6e,\
+  7b,3b,ec,7e,1c,7c,5e,39,4f,f8,5b,6e,ab,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,7f,ec,19,c0,ef,bb,28,a3,0c,7a,a5,66,77,5f,fd,23,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,3f,07,8f,79,9c,94,d6,63,98,34,3b,d3,2f,6d,91,4c,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,50,c4,d9,ba,e0,df,53,60,4e,2a,c3,f4,b3,\
+  6e,f6,65,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,dc,a8,cb,ea,11,49,09,3f,\
+  55,06,f9,54,88,fd,fb,a8,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,02,5b,39,\
+  f2,4e,19,57,73,48,6f,70,43,e8,34,59,33,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,e0,0d,68,69,69,45,18,ff,f0,64,37,23,ce,9b,e5,b7,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,54,e8,cd,51,14,0e,24,fa,6f,99,e8,be,6e,70,50,a7,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,\
+  3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,\
+  2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,\
+  d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,\
+  cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,\
+  61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,\
+  b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,d9,cf,61,b6,\
+  2f,db,3f,2f,d9,cf,61,b6,2f,db,3f,2f,19,b1,2d,a3,b2,1e,da,c4,d9,cf,61,b6,2f,\
+  db,3f,2f,d9,cf,61,b6,2f,db,3f,2f
+"DisplayName"="HoYoProtect"
+"ErrorControl"=dword:00000001
+"ImagePath"=str(2):"C:\\windows\\system32\\HoYoKProtect.sys"
+"LastState"=hex(b):65,e2,c6,b3,8c,58,00,00
+"LastStatus"=hex(b):65,b2,c6,b3,00,00,00,00
+"LoadTime"=hex(b):02,73,33,a5,cc,51,dd,01
+"ObjectName"="LocalSystem"
+"PreshutdownTimeout"=dword:0002bf20
+"Start"=dword:00000003
+"Type"=dword:00000001
+"UnLoadTime"=hex(b):00,1e,3f,a5,cc,51,dd,01
 
 [System\\ControlSet001\\Services\\HTTP] 1787101391
 #time=1dd2f76819d4f1c

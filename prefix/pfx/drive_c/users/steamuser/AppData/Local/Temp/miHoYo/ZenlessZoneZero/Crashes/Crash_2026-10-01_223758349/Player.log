@@ -1,0 +1,261 @@
+Compressed File Name 2026-10-01T22-37-53.zip
+Initialize engine version: 2019.4.40f1 (aac03e0cdd)
+[Subsystems] Discovering subsystems at path S:/ZenlessZoneZero_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1  threadingMode:3
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti SUPER (ID=0x2705)
+    Vendor:   
+    VRAM:     16376 MB
+    Driver:   35.0.99.9999
+WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+ERROR: Shader Hidden/Universal Render Pipeline/RTXGI shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+Unity.Timeline InitOdinNew Success
+miHoYoEmotion InitOdinNew Success
+PipelineCamera InitOdinNew Success
+Foundation InitOdinNew Success
+Logic InitOdinNew Success
+<RI> Initializing input.
+New input system (experimental) initialized
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.223700 ms
+currentCulture.Name:en-US
+Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
+Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
+WwiseUnity: Wwise(R) SDK Version 2019.2.15 Build 7667.
+WwiseUnity: Setting Plugin DLL path to: S:/ZenlessZoneZero_Data\Plugins\x86_64
+WwiseUnity: Sound engine initialized successfully.
+Crash!!!
+StackWalker cannot find the latest dbghelp.dll 
+(Filename:  Line: 291)
+
+SymInit: Symbol-SearchPath: '.;Z:\home\hamza;S:;C:\windows;C:\windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'steamuser'
+OS-Version: 10.0.0
+S:\ZenlessZoneZero.exe:ZenlessZoneZero.exe (00006FFFFCF00000), size: 10407936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2019.4.41.49214
+C:\windows\system32\ntdll.dll:ntdll.dll (00006FFFFFEF0000), size: 757760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.24059
+C:\windows\system32\kernel32.dll:kernel32.dll (00006FFFFFE70000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19045.5796
+C:\windows\system32\kernelbase.dll:kernelbase.dll (00006FFFFFB90000), size: 2940928 (result: 0), SymType: '-deferred-', PDB: ''
+S:\UnityPlayer.dll:UnityPlayer.dll (00006FFFFA940000), size: 39514112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2019.4.41.49214
+C:\windows\system32\USER32.dll:USER32.dll (00006FFFFF400000), size: 1835008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\advapi32.dll:advapi32.dll (00006FFFFFB40000), size: 258048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.10240.16384
+C:\windows\system32\msvcrt.dll:msvcrt.dll (00006FFFFFA80000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.2600.2180
+C:\windows\system32\sechost.dll:sechost.dll (00006FFFFFA40000), size: 143360 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\setupapi.dll:setupapi.dll (00006FFFFF9B0000), size: 491520 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\cfgmgr32.dll:cfgmgr32.dll (00006FFFFF970000), size: 151552 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\ucrtbase.dll:ucrtbase.dll (00006FFFFF880000), size: 872448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.2247
+C:\windows\system32\rpcrt4.dll:rpcrt4.dll (00006FFFFF7E0000), size: 561152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\cryptbase.dll:cryptbase.dll (00006FFFFF7C0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\gdi32.dll:gdi32.dll (00006FFFFF360000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\win32u.dll:win32u.dll (00006FFFFF310000), size: 237568 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\VERSION.dll:VERSION.dll (00006FFFFDB70000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\ole32.dll:ole32.dll (00006FFFFE630000), size: 761856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\combase.dll:combase.dll (00006FFFFE5C0000), size: 331776 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\coml2.dll:coml2.dll (00006FFFFE590000), size: 114688 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\SHLWAPI.dll:SHLWAPI.dll (00006FFFFE730000), size: 331776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.2800.1692
+C:\windows\system32\shcore.dll:shcore.dll (00006FFFFE700000), size: 98304 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\SHELL32.dll:SHELL32.dll (00006FFFFE7A0000), size: 9748480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.2900.6242
+C:\windows\system32\OPENGL32.dll:OPENGL32.dll (000000007BEB0000), size: 1122304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2082
+C:\windows\system32\WINMM.dll:WINMM.dll (00006FFFFA860000), size: 794624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\msacm32.dll:msacm32.dll (00006FFFFA830000), size: 131072 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\OLEAUT32.dll:OLEAUT32.dll (00006FFFFE250000), size: 897024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19043.1466
+C:\windows\system32\IMM32.dll:IMM32.dll (00006FFFFF2E0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\WINHTTP.dll:WINHTTP.dll (00006FFFFA7D0000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\jsproxy.dll:jsproxy.dll (00006FFFFA7A0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\ws2_32.dll:ws2_32.dll (00006FFFFF780000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.5512
+C:\windows\system32\bcrypt.dll:bcrypt.dll (00006FFFFDD40000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.6000.16386
+C:\windows\system32\HID.DLL:HID.DLL (00006FFFFA780000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\CRYPT32.dll:CRYPT32.dll (00006FFFFDD70000), size: 868352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.131.2600.1243
+C:\windows\system32\pdh.dll:pdh.dll (00006FFFFA750000), size: 81920 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\WINTRUST.DLL:WINTRUST.DLL (00006FFFFDB30000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23769
+C:\windows\system32\imagehlp.dll:imagehlp.dll (00006FFFFE390000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\rsaenh.dll:rsaenh.dll (00006FFFFA520000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+S:\GameAssembly.dll:GameAssembly.dll (00006FFFD9EF0000), size: 543236096 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\IPHLPAPI.DLL:IPHLPAPI.DLL (00006FFFFF210000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\dnsapi.dll:dnsapi.dll (00006FFFFF1E0000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.2.3790.4318
+C:\windows\system32\nsi.dll:nsi.dll (00006FFFFF1C0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\dbghelp.dll:dbghelp.dll (00006FFFFA580000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.17514
+C:\windows\system32\WLDAP32.dll:WLDAP32.dll (00006FFFFE190000), size: 581632 (result: 0), SymType: '-deferred-', PDB: ''
+c:\windows\system32\winewayland.drv:winewayland.drv (00006FFFFDAD0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\uxtheme.dll:uxtheme.dll (00006FFFFDA80000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+S:\ZenlessZoneZero_Data\Plugins\x86_64\HoYoChannel.dll:HoYoChannel.dll (00006FFFD9CA0000), size: 2359296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.2.0.266
+C:\windows\system32\d3d11.dll:d3d11.dll (00006FFFD9620000), size: 6696960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17763.1
+C:\windows\system32\dxgi.dll:dxgi.dll (00006FFFD9160000), size: 4861952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17763.1
+C:\windows\system32\winevulkan.dll:winevulkan.dll (00006FFFD9100000), size: 270336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\wbem\wbemprox.dll:wbemprox.dll (00006FFFD90B0000), size: 245760 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\winspool.drv:winspool.drv (00006FFFD9060000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\compstui.dll:compstui.dll (00006FFFD9030000), size: 126976 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef\comctl32.dll:comctl32.dll (00006FFFD8ED0000), size: 1323008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.2600.2982
+C:\windows\system32\msasn1.dll:msasn1.dll (00006FFFD8EA0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\cryptnet.dll:cryptnet.dll (00006FFFD8E70000), size: 94208 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\wldp.dll:wldp.dll (00006FFFD8E50000), size: 49152 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\nvapi64.dll:nvapi64.dll (00006FFFD8C70000), size: 1892352 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\d3d12.dll:d3d12.dll (00006FFFD8C40000), size: 122880 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\nvml.dll:nvml.dll (00006FFFD8C00000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 8.17.15.9159
+C:\windows\system32\xinput1_4.dll:xinput1_4.dll (00006FFFD8BD0000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
+C:\windows\system32\xinput1_3.dll:xinput1_3.dll (00006FFFD8BA0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.15.779.0
+S:\ZenlessZoneZero_Data\Plugins\x86_64\AkSoundEngine.dll:AkSoundEngine.dll (00006FFFD88C0000), size: 2932736 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\mmdevapi.dll:mmdevapi.dll (00006FFFD8870000), size: 233472 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\winepulse.drv:winepulse.drv (0000000180000000), size: 28672 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\winealsa.drv:winealsa.drv (0000000106700000), size: 28672 (result: 0), SymType: '-deferred-', PDB: ''
+S:\MHYPBase.dll:MHYPBase.dll (00006FFFD6EC0000), size: 26808320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1.1
+C:\windows\system32\POWRPROF.dll:POWRPROF.dll (00006FFFD6EA0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: ''
+
+========== OUTPUTTING STACK TRACE ==================
+
+SymInit: Symbol-SearchPath: '.;Z:\home\hamza;S:;C:\windows;C:\windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 534, UserName: 'steamuser'
+OS-Version: 10.0.0
+S:\ZenlessZoneZero.exe:ZenlessZoneZero.exe (00006FFFFCF00000), size: 10407936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2019.4.41.49214
+C:\windows\system32\ntdll.dll:ntdll.dll (00006FFFFFEF0000), size: 757760 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.24059
+C:\windows\system32\kernel32.dll:kernel32.dll (00006FFFFFE70000), size: 417792 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19045.5796
+C:\windows\system32\kernelbase.dll:kernelbase.dll (00006FFFFFB90000), size: 2940928 (result: 0), SymType: '-deferred-', PDB: ''
+S:\UnityPlayer.dll:UnityPlayer.dll (00006FFFFA940000), size: 39514112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2019.4.41.49214
+C:\windows\system32\USER32.dll:USER32.dll (00006FFFFF400000), size: 1835008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\advapi32.dll:advapi32.dll (00006FFFFFB40000), size: 258048 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.10240.16384
+C:\windows\system32\msvcrt.dll:msvcrt.dll (00006FFFFFA80000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.2600.2180
+C:\windows\system32\sechost.dll:sechost.dll (00006FFFFFA40000), size: 143360 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\setupapi.dll:setupapi.dll (00006FFFFF9B0000), size: 491520 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\cfgmgr32.dll:cfgmgr32.dll (00006FFFFF970000), size: 151552 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\ucrtbase.dll:ucrtbase.dll (00006FFFFF880000), size: 872448 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.14393.2247
+C:\windows\system32\rpcrt4.dll:rpcrt4.dll (00006FFFFF7E0000), size: 561152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\cryptbase.dll:cryptbase.dll (00006FFFFF7C0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\gdi32.dll:gdi32.dll (00006FFFFF360000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\win32u.dll:win32u.dll (00006FFFFF310000), size: 237568 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\VERSION.dll:VERSION.dll (00006FFFFDB70000), size: 53248 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\ole32.dll:ole32.dll (00006FFFFE630000), size: 761856 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\combase.dll:combase.dll (00006FFFFE5C0000), size: 331776 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\coml2.dll:coml2.dll (00006FFFFE590000), size: 114688 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\SHLWAPI.dll:SHLWAPI.dll (00006FFFFE730000), size: 331776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.2800.1692
+C:\windows\system32\shcore.dll:shcore.dll (00006FFFFE700000), size: 98304 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\SHELL32.dll:SHELL32.dll (00006FFFFE7A0000), size: 9748480 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.2900.6242
+C:\windows\system32\OPENGL32.dll:OPENGL32.dll (000000007BEB0000), size: 1122304 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2082
+C:\windows\system32\WINMM.dll:WINMM.dll (00006FFFFA860000), size: 794624 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\msacm32.dll:msacm32.dll (00006FFFFA830000), size: 131072 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\OLEAUT32.dll:OLEAUT32.dll (00006FFFFE250000), size: 897024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.19043.1466
+C:\windows\system32\IMM32.dll:IMM32.dll (00006FFFFF2E0000), size: 126976 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\WINHTTP.dll:WINHTTP.dll (00006FFFFA7D0000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\jsproxy.dll:jsproxy.dll (00006FFFFA7A0000), size: 122880 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\ws2_32.dll:ws2_32.dll (00006FFFFF780000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.5512
+C:\windows\system32\bcrypt.dll:bcrypt.dll (00006FFFFDD40000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.6000.16386
+C:\windows\system32\HID.DLL:HID.DLL (00006FFFFA780000), size: 65536 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\CRYPT32.dll:CRYPT32.dll (00006FFFFDD70000), size: 868352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.131.2600.1243
+C:\windows\system32\pdh.dll:pdh.dll (00006FFFFA750000), size: 81920 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\WINTRUST.DLL:WINTRUST.DLL (00006FFFFDB30000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.23769
+C:\windows\system32\imagehlp.dll:imagehlp.dll (00006FFFFE390000), size: 73728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\rsaenh.dll:rsaenh.dll (00006FFFFA520000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+S:\GameAssembly.dll:GameAssembly.dll (00006FFFD9EF0000), size: 543236096 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\IPHLPAPI.DLL:IPHLPAPI.DLL (00006FFFFF210000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\dnsapi.dll:dnsapi.dll (00006FFFFF1E0000), size: 90112 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.2.3790.4318
+C:\windows\system32\nsi.dll:nsi.dll (00006FFFFF1C0000), size: 53248 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\dbghelp.dll:dbghelp.dll (00006FFFFA580000), size: 548864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.1.7601.17514
+C:\windows\system32\WLDAP32.dll:WLDAP32.dll (00006FFFFE190000), size: 581632 (result: 0), SymType: '-deferred-', PDB: ''
+c:\windows\system32\winewayland.drv:winewayland.drv (00006FFFFDAD0000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\uxtheme.dll:uxtheme.dll (00006FFFFDA80000), size: 225280 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+S:\ZenlessZoneZero_Data\Plugins\x86_64\HoYoChannel.dll:HoYoChannel.dll (00006FFFD9CA0000), size: 2359296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.2.0.266
+C:\windows\system32\d3d11.dll:d3d11.dll (00006FFFD9620000), size: 6696960 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17763.1
+C:\windows\system32\dxgi.dll:dxgi.dll (00006FFFD9160000), size: 4861952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.17763.1
+C:\windows\system32\winevulkan.dll:winevulkan.dll (00006FFFD9100000), size: 270336 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.0.0
+C:\windows\system32\wbem\wbemprox.dll:wbemprox.dll (00006FFFD90B0000), size: 245760 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\winspool.drv:winspool.drv (00006FFFD9060000), size: 204800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 5.1.2600.2180
+C:\windows\system32\compstui.dll:compstui.dll (00006FFFD9030000), size: 126976 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.2600.2982_none_deadbeef\comctl32.dll:comctl32.dll (00006FFFD8ED0000), size: 1323008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.0.2600.2982
+C:\windows\system32\msasn1.dll:msasn1.dll (00006FFFD8EA0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\cryptnet.dll:cryptnet.dll (00006FFFD8E70000), size: 94208 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\wldp.dll:wldp.dll (00006FFFD8E50000), size: 49152 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\nvapi64.dll:nvapi64.dll (00006FFFD8C70000), size: 1892352 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\d3d12.dll:d3d12.dll (00006FFFD8C40000), size: 122880 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\nvml.dll:nvml.dll (00006FFFD8C00000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 8.17.15.9159
+C:\windows\system32\xinput1_4.dll:xinput1_4.dll (00006FFFD8BD0000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 6.3.9600.16384
+C:\windows\system32\xinput1_3.dll:xinput1_3.dll (00006FFFD8BA0000), size: 69632 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 9.15.779.0
+S:\ZenlessZoneZero_Data\Plugins\x86_64\AkSoundEngine.dll:AkSoundEngine.dll (00006FFFD88C0000), size: 2932736 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\mmdevapi.dll:mmdevapi.dll (00006FFFD8870000), size: 233472 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\winepulse.drv:winepulse.drv (0000000180000000), size: 28672 (result: 0), SymType: '-deferred-', PDB: ''
+C:\windows\system32\winealsa.drv:winealsa.drv (0000000106700000), size: 28672 (result: 0), SymType: '-deferred-', PDB: ''
+S:\MHYPBase.dll:MHYPBase.dll (00006FFFD6EC0000), size: 26808320 (result: 0), SymType: '-nosymbols-', PDB: 'S:\MHYPBase.dll', fileVersion: 1.0.1.1
+C:\windows\system32\POWRPROF.dll:POWRPROF.dll (00006FFFD6EA0000), size: 49152 (result: 0), SymType: '-deferred-', PDB: ''
+  ERROR: SymGetSymFromAddr64, GetLastError: 'No more files.' (Address: 00006FFFD86EA36A)
+0x00006FFFD86EA36A (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD87A1CEE)
+0x00006FFFD87A1CEE (mhypbase) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Success.' (Address: 00006FFFD6FCD414)
+0x00006FFFD6FCD414 (mhypbase) (function-name not available)
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/users/steamuser/AppData/Local/Temp/miHoYo/ZenlessZoneZero/Crashes
