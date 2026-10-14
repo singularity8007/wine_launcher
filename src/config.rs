@@ -14,6 +14,7 @@ pub struct Config {
     pub prefix_dir: PathBuf,  // folder that holds the pfx/ prefix
     pub game_dir: PathBuf,    // fresh ZZZ install
     pub exe: PathBuf,         // the exe to launch (Wine accepts a Linux path here)
+    pub stats_path: PathBuf,  // play time and last-played date (JSON)
 }
 
 impl Config {
@@ -26,6 +27,7 @@ impl Config {
             reaper_path: root.join("bin").join("reaper"),
             prefix_dir: root.join("prefix"),
             exe: game_dir.join(GAME_EXE),
+            stats_path: root.join("playtime.json"),
             game_dir,
         })
     }

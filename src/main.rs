@@ -4,6 +4,7 @@ mod downloader;
 mod gui;
 mod installer;
 mod launch_chain;
+mod playtime;
 mod prefix;
 mod progress;
 mod sophon;

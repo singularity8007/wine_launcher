@@ -14,6 +14,7 @@ const BUILD_URL: &str =
 const VOICE: &str = "en-us";
 
 /// One downloadable piece of the game: the base game, a chapter, a voice pack...
+#[allow(dead_code)]
 pub struct Item {
     pub name: String,
     pub manifest_url: String,

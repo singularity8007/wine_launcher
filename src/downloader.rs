@@ -57,7 +57,7 @@ fn use_installed_copy(
 ) -> Result<()> {
     if read_record(dest).is_some() {
         progress.note(format!(
-            "Could not check {name} for updates ({err:#}); using the installed copy."
+            "Couldn't check {name} for updates just now, so the version you already have is being used."
         ));
         Ok(())
     } else {
@@ -141,11 +141,14 @@ fn ensure(agent: &ureq::Agent, pkg: &Package, progress: &Progress) -> Result<()>
         ));
         match download(agent, &pkg.archive_url, &archive, &expected) {
             Ok(actual) if actual == expected => break,
-            Ok(actual) => progress.note(format!(
-                "{}: checksum mismatch: got {actual}, expected {expected}",
+            Ok(_) => progress.note(format!(
+                "The {} download looked damaged, so it was fetched again.",
                 pkg.name
             )),
-            Err(e) => progress.note(format!("{}: download failed: {e:#}", pkg.name)),
+            Err(_) => progress.note(format!(
+                "The {} download was interrupted, so it was tried again.",
+                pkg.name
+            )),
         }
         if attempt == MAX_ATTEMPTS {
             bail!("giving up on {} after {MAX_ATTEMPTS} attempts", pkg.archive_name);
