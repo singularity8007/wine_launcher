@@ -23,7 +23,7 @@ const EARLY_EXIT: Duration = Duration::from_secs(30);
 // and what to try, and keep the technical text for the "details" line. ----
 
 const NOT_READY: &str = "ZZZ isn't ready to play yet. Press \"Install game\" first. \
-If you already did and it got interrupted, press it again and it will finish the job.";
+If you already did and it got interrupted, press it again to resume your download.";
 
 const LAUNCH_FAILED: &str = "ZZZ didn't start this time. HoYo's servers may just be slow to answer. \
 Check your internet connection, or press \"Check for updates\", then try again.";
@@ -114,17 +114,18 @@ impl Backend {
     /// Install ZZZ, or bring an existing install up to the latest version.
     /// Only changed files are downloaded.
     pub fn install_game(&self) {
+        println!("I am installing game in backend/install_game");
         self.start(|cfg, progress| {
             installer::ensure_game(&cfg.game_dir, progress).map_err(|e| {
                 let details = format!("{e:#}");
                 let text = if details.contains("not enough disk space") {
                     NO_DISK_SPACE
                 } else {
-                    INSTALL_FAILED
+                    INSTALL_FAILED      
                 };
                 Failure::with_details(text, details)
             })?;
-            Ok("ZZZ is installed and ready to play.".into())
+            Ok("ZZZ is up to date and ready to play.".into())
         });
     }
 
@@ -132,15 +133,14 @@ impl Backend {
     /// a newer version (without downloading it).
     pub fn check_updates(&self) {
         self.start(|cfg, progress| {
-            downloader::update_all(cfg, progress)
+            downloader::update_all(cfg, progress)   
                 .map_err(|e| Failure::with_details(UPDATE_FAILED, format!("{e:#}")))?;
             let game = match installer::check(&cfg.game_dir, progress) {
                 Ok(GameStatus::UpToDate) => "ZZZ is up to date.".to_string(),
-                Ok(GameStatus::UpdateAvailable) => "A new ZZZ version is out! Press \
-                    \"Install game\" to get it. Only the parts that changed are downloaded."
+                Ok(GameStatus::UpdateAvailable) => "A new ZZZ version is out! Press \"Play\" to join ZZZ so it can update."
                     .to_string(),
                 Ok(GameStatus::NotInstalled) => {
-                    "ZZZ isn't installed yet. Press \"Install game\" to get started."
+                    "ZZZ isn't installed yet. Press \"Install/Update game\" to get started."
                         .to_string()
                 }
                 // Offline or HoYo down: not a failure of the runtime update.
@@ -169,7 +169,7 @@ impl Backend {
             match launch_chain::run(cfg) {
                 // Clean exit, or it ran a normal length of time: a normal session.
                 Ok(status) if status.success() || started.elapsed() >= EARLY_EXIT => {
-                    Ok("Welcome back! ZZZ has closed.".into())
+                    Ok("ZZZ has closed.".into())
                 }
                 Ok(status) => Err(Failure::with_details(
                     LAUNCH_FAILED,

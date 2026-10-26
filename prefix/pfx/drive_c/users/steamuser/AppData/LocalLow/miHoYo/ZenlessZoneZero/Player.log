@@ -1,5 +1,5 @@
-Compressed File Name 2026-10-01T22-51-22.zip
-Initialize engine version: 2019.4.40f1 (aac03e0cdd)
+Compressed File Name 2026-10-24T13-33-34.zip
+Initialize engine version: 2019.4.40f1 (ad7251155a)
 [Subsystems] Discovering subsystems at path S:/ZenlessZoneZero_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1  threadingMode:3
 Direct3D:
@@ -22,7 +22,7 @@ Logic InitOdinNew Success
 New input system (experimental) initialized
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.220100 ms
+UnloadTime: 0.194200 ms
 currentCulture.Name:en-US
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
 Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
@@ -33,17 +33,18 @@ Startup RegisterInputSystem.
 HTTP interceptors initialized
 config.ini is not exist
 currentCulture.Name:en-US
-Unloading 5 Unused Serialized files (Serialized files now loaded: 126)
-UnloadTime: 0.946600 ms
+HoYoChannel_LOADED: channel=discord loaded
+Unloading 5 Unused Serialized files (Serialized files now loaded: 138)
+UnloadTime: 1.057000 ms
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 45140.
-Total: 19.518700 ms (FindLiveObjects: 1.085800 ms CreateObjectMapping: 1.193700 ms MarkObjects: 17.206800 ms  DeleteObjects: 0.032000 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 46656.
+Total: 29.494700 ms (FindLiveObjects: 1.227500 ms CreateObjectMapping: 1.278100 ms MarkObjects: 26.951100 ms  DeleteObjects: 0.037600 ms)
 
 WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 4385 
+Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 4399 
 SDKInit
 SetSDKEnv: 2
 jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
@@ -59,8 +60,8 @@ Update local region translation resources:en-us
 Update local region translation resources:en-us
 regionTranslationVersionCheck URL:https://webstatic.hoyoverse.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
 config.ini is not exist
-request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.54.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
-Set Game Version: OSPRODWin3.2.0
+request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.56.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
+Set Game Version: OSPRODWin3.3.0
 HoYoPass.Initialize
 log strategy is updated to 0
 EventDispatcher: into InitResult
@@ -73,7 +74,7 @@ PreLoadSWURL: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=
 Init with offScreen: True
 Init with offScreen: True
 InitUI with offScreen: True
-mihoyosdk webview created: a518bd13853cdef76d6a222cb008d4bd512681d91790895104903
+mihoyosdk webview created: a518bd13853cdef76d6a222cb008d4bd512681d91792848837928
 InitCrashSDKConfig
 log strategy is updated to 0
 auth Ticket is empty
@@ -87,6 +88,7 @@ AutoLogin: HoYoPass.AutoLogin method call succeeded
 Logger Index is:1, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
 Logger Index is:2, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
 OnBoxConfigReady: forwarded box config to APM
+use_new_compliance_flow: passport
 ThirdpartyLoginManager initialize success
 LoginManager initialize success
 start
@@ -97,7 +99,6 @@ EventDispatcher: into CurrentRegionUpdate
 EventDispatcher: into LogStrategyUpdate
 EventDispatcher: into LoginResult
 DeviceFPManager::CheckInvalidDeviceFpValue, invalid devicefp key is: MIHOYOSDK_GPU_NAME, value is: NVIDIA GeForce RTX 4070 Ti SUPER
-use_new_compliance_flow: passport
 set current domain region: US
 CheckAgeGateVerificationEvent: false
 log strategy is updated to 0
@@ -125,7 +126,7 @@ Try to get the region-specific url, key is comboLogin_us
 Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
 second level domain is:hoyoverse.com
 set cookies:lrsag 0 hoyoverse.com
-Webview perf time (ms) - init : 59
+Webview perf time (ms) - init : 91
 ZenFulcrum.EmbeddedBrowser.JSONNode
 IsAlreadyDetached is:False
 Logger Index is:8, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
@@ -143,7 +144,7 @@ second level domain is:hoyoverse.com
 set cookies:lrsag 0 hoyoverse.com
 set cookies:age_gate_country US hoyoverse.com
 web: 1 url: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=0&mode=fullscreen&network=wifi&platform=pc&runtime_cache=false,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
-Webview perf time (ms) - Load : 424
+Webview perf time (ms) - Load : 446
 disableExecuteAsync:0
 disableSRPHelper:0
 disableiOSShaderHibernation:0
@@ -174,13 +175,13 @@ WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 ERROR: Shader Hidden/Universal Render Pipeline/RTXGI shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-Texture: InternalLut_Char_4x4_RGB111110Float is released while Async SRP still running!! frame: 4712 
-Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 4712 
+Texture: InternalLut_Char_4x4_RGB111110Float is released while Async SRP still running!! frame: 4693 
+Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 4693 
 WARNING: Shader Unsupported: 'ASE/Particle_Noise_Dissolve' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+MouseInputEnhancement启动
 Shader 'Spine/Outline/SkeletonGraphic': fallback shader 'Spine/SkeletonGraphic' not found
 ERROR: Shader Spine/Outline/SkeletonGraphic shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-MouseInputEnhancement启动
 wm_setEnable: begin: watermark input param : {"enable":false,"alpha":0.3,"width":3840,"height":2160}
 wm_setEnable: set to:False
 wm_setEnable: WM is disabled, hide wm
@@ -193,209 +194,1014 @@ Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.
 apm_set_server_id: prod_gf_us
 NativeTaskLogger:notice_check_pop_notice do not use native task.
 PreLoadSWURL: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=52&lrsag=0&mode=fullscreen&network=wifi&platform=pc&region=prod_gf_us&runtime_cache=true&uid=1008693226
+[Discord_RP] user not bound to discord, skip auto-trigger
 wm_initialize:WM is disabled
 ZenFulcrum.EmbeddedBrowser.JSONNode
+red point response is: {"retcode":0,"message":"OK","data":{"infos":[]}}
 second level domain is:hoyoverse.com
 set cookies:lrsag 0 hoyoverse.com
 set cookies:age_gate_country US hoyoverse.com
 web: 1 url: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=52&lrsag=0&mode=fullscreen&network=wifi&platform=pc&region=prod_gf_us&runtime_cache=true&uid=1008693226,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
-Webview perf time (ms) - Load : 83
-red point response is: {"retcode":0,"message":"OK","data":{"infos":[]}}
-Unloading 3 Unused Serialized files (Serialized files now loaded: 2961)
-UnloadTime: 0.320500 ms
+Webview perf time (ms) - Load : 530
+Unloading 3 Unused Serialized files (Serialized files now loaded: 2909)
+UnloadTime: 0.343200 ms
 
-Unloading 308 unused Assets to reduce memory usage. Loaded Objects now: 58752.
-Total: 108.869100 ms (FindLiveObjects: 1.570000 ms CreateObjectMapping: 1.968700 ms MarkObjects: 102.658300 ms  DeleteObjects: 2.671900 ms)
+Unloading 315 unused Assets to reduce memory usage. Loaded Objects now: 64599.
+Total: 127.711800 ms (FindLiveObjects: 1.703500 ms CreateObjectMapping: 2.116000 ms MarkObjects: 120.247300 ms  DeleteObjects: 3.644600 ms)
 
-A scripted object (probably PcgSceneAssetManager?) has a different serialization layout when loading. (Read 32 bytes but expected 3840 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2710)
-
-[6116][WorldGraph] [MainGraph_name:GroupGraph_600203422_2_id:1][GraphFlow_89][Frame:1251] error : InteractData not find by name 
+[5917][WorldGraph] [MainGraph_name:GroupGraph_600203422_2_id:1][GraphFlow_398][Frame:1071] error : InteractData not find by name 
 UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-CJHDDJDCJBA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-PFGJJNMPLPH:GAMMDFLLNLN(MGKAHFFFNAC, KCFAEOPHMHA&)
-PFGJJNMPLPH:GAMMDFLLNLN(KCFAEOPHMHA&)
-BBIFFFFGMFK:NFPAJIBGHJE(KCFAEOPHMHA&)
-DIJHKMDJMND:DPGLFCJPAHL()
+GJAJFIHLMAL:IFHEDOOFBCL(LGCNEDCMPKM&, String)
+FBCJMIJEOPE:ELMEFBBHCEG(LGCNEDCMPKM&)
+CGJEMKCKIJG:OMMICIJCCKB(LGCNEDCMPKM&)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Boolean)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Int32, Boolean)
+KLAIGKCLFDH:ELMEFBBHCEG(LGCNEDCMPKM&)
+CGJEMKCKIJG:OMMICIJCCKB(LGCNEDCMPKM&)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Boolean)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Int32, Boolean)
+KCBEGMCCKCA:KMLCNCFMAJB(LFEMKPGJMHB, NEIGJHNJNFL&)
+KCBEGMCCKCA:KMLCNCFMAJB(NEIGJHNJNFL&)
+GHBIDFBNIKN:DHBAKIEKJIJ(NEIGJHNJNFL&)
+OPNAJJAIEPP:OKJCHFGIKBH()
 MoleMole.GameEngine:Update()
  
 (Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
 
-[6116][WorldGraph] [MainGraph_name:GroupGraph_600203424_2_id:2][GraphFlow_90][Frame:1251] error : InteractData not find by name 
+[5917][WorldGraph] [MainGraph_name:GroupGraph_600203424_2_id:2][GraphFlow_401][Frame:1071] error : InteractData not find by name 
 UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-CJHDDJDCJBA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-PFGJJNMPLPH:GAMMDFLLNLN(MGKAHFFFNAC, KCFAEOPHMHA&)
-PFGJJNMPLPH:GAMMDFLLNLN(KCFAEOPHMHA&)
-BBIFFFFGMFK:NFPAJIBGHJE(KCFAEOPHMHA&)
-DIJHKMDJMND:DPGLFCJPAHL()
+GJAJFIHLMAL:IFHEDOOFBCL(LGCNEDCMPKM&, String)
+FBCJMIJEOPE:ELMEFBBHCEG(LGCNEDCMPKM&)
+CGJEMKCKIJG:OMMICIJCCKB(LGCNEDCMPKM&)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Boolean)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Int32, Boolean)
+KLAIGKCLFDH:ELMEFBBHCEG(LGCNEDCMPKM&)
+CGJEMKCKIJG:OMMICIJCCKB(LGCNEDCMPKM&)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Boolean)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Int32, Boolean)
+KCBEGMCCKCA:KMLCNCFMAJB(LFEMKPGJMHB, NEIGJHNJNFL&)
+KCBEGMCCKCA:KMLCNCFMAJB(NEIGJHNJNFL&)
+GHBIDFBNIKN:DHBAKIEKJIJ(NEIGJHNJNFL&)
+OPNAJJAIEPP:OKJCHFGIKBH()
 MoleMole.GameEngine:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6116][WorldGraph] 执行的Cmd过多 1085
-UnityEngine.Logger:Log(LogType, Object)
-DIJHKMDJMND:DPGLFCJPAHL()
-MoleMole.GameEngine:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6116][WorldGraph] 执行的Cmd过多 714
-UnityEngine.Logger:Log(LogType, Object)
-DIJHKMDJMND:DPGLFCJPAHL()
-MoleMole.GameEngine:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6116][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:46][GraphFlow_179][Frame:1251] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6116][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:46][GraphFlow_179][Frame:1251] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6116][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:151][GraphFlow_182][Frame:1251] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6116][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:151][GraphFlow_182][Frame:1251] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[7594][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:401][GraphFlow_678][Frame:2729] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[7594][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:401][GraphFlow_678][Frame:2729] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[7594][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:402][GraphFlow_681][Frame:2729] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[7594][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:402][GraphFlow_681][Frame:2729] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
  
 (Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
 
 NapLodControllerManager AddJobData: group is null
 UnityEngine.Logger:Log(LogType, Object)
-OPBOEMDGHPL:CONJMFCBLPG()
-OPBOEMDGHPL:HKMGHFAKKOG()
-FNLGCNCMCAN:LGJBGCLHNGI(Single)
+HAJHLLCPIHD:ABDLEONNPAJ()
+HAJHLLCPIHD:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
 MoleMole.GameEngine:LateUpdate()
  
 (Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 4835)
-UnloadTime: 3.529100 ms
+NapLodControllerManager AddJobData: group is null
+UnityEngine.Logger:Log(LogType, Object)
+HAJHLLCPIHD:ABDLEONNPAJ()
+HAJHLLCPIHD:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
 
-Unloading 227 unused Assets to reduce memory usage. Loaded Objects now: 78950.
-Total: 144.901800 ms (FindLiveObjects: 2.669200 ms CreateObjectMapping: 2.467600 ms MarkObjects: 138.740800 ms  DeleteObjects: 1.023800 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 3407)
+UnloadTime: 2.500400 ms
+
+Unloading 222 unused Assets to reduce memory usage. Loaded Objects now: 77473.
+Total: 178.432800 ms (FindLiveObjects: 2.453100 ms CreateObjectMapping: 2.242400 ms MarkObjects: 171.362500 ms  DeleteObjects: 2.374500 ms)
+
+SceneMechanismEffectManager.AddNode(): GameObject is null
+UnityEngine.Logger:Log(LogType, Object)
+OCMLDIOKCEE:ABDLEONNPAJ()
+OCMLDIOKCEE:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Fatal! Texture2D: moon_bright is released while Async SRP still running!! 
+Fatal! Texture: moon_bright is released while Async SRP still running!! 
+[Async SRP Submit] Detect ShaderPassContext modification during async submit : texture properties _MoonTex AuxiliaryProperties unhandled!!!! 
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5557)
+UnloadTime: 1.279700 ms
+
+Unloading 109 unused Assets to reduce memory usage. Loaded Objects now: 111029.
+Total: 204.593900 ms (FindLiveObjects: 4.091800 ms CreateObjectMapping: 4.624600 ms MarkObjects: 195.397900 ms  DeleteObjects: 0.479200 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3687)
+UnloadTime: 0.542600 ms
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 79136.
+Total: 174.222200 ms (FindLiveObjects: 2.488100 ms CreateObjectMapping: 2.440000 ms MarkObjects: 168.652900 ms  DeleteObjects: 0.641000 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 4972)
+UnloadTime: 0.982000 ms
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 104226.
+Total: 194.547800 ms (FindLiveObjects: 3.639000 ms CreateObjectMapping: 2.523300 ms MarkObjects: 187.978500 ms  DeleteObjects: 0.406600 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Texture: _TAAIDRT0_4608x2592_R8 is released while Async SRP still running!! frame: 70508 
+Texture: _TAAIDRT1_4608x2592_R8 is released while Async SRP still running!! frame: 70508 
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3735)
+UnloadTime: 1.198600 ms
+
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 79330.
+Total: 180.227200 ms (FindLiveObjects: 2.705600 ms CreateObjectMapping: 2.369800 ms MarkObjects: 174.746200 ms  DeleteObjects: 0.405400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 4932)
+UnloadTime: 1.460400 ms
+
+Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 102769.
+Total: 214.046700 ms (FindLiveObjects: 3.791500 ms CreateObjectMapping: 2.606100 ms MarkObjects: 207.011800 ms  DeleteObjects: 0.636900 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Standard' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Standard' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Standard' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Standard' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3785)
+UnloadTime: 0.571900 ms
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 79455.
+Total: 182.909300 ms (FindLiveObjects: 2.538000 ms CreateObjectMapping: 2.211100 ms MarkObjects: 177.595200 ms  DeleteObjects: 0.564600 ms)
+
+AwakeFromLoad(controller-less + ManualStep/UnityBone) on a controller-less animator has no scheduling entry and will not run. Use the mecanim step path instead. 
+(Filename:  Line: 1894)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5039)
+UnloadTime: 1.515500 ms
+
+Unloading 123 unused Assets to reduce memory usage. Loaded Objects now: 101191.
+Total: 202.299600 ms (FindLiveObjects: 3.589800 ms CreateObjectMapping: 2.613200 ms MarkObjects: 195.733800 ms  DeleteObjects: 0.362400 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+A scripted object (probably MonoCameraCapture?) has a different serialization layout when loading. (Read 32 bytes but expected 276 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
+(Filename:  Line: 2710)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3843)
+UnloadTime: 0.490900 ms
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 79709.
+Total: 186.709500 ms (FindLiveObjects: 2.560600 ms CreateObjectMapping: 2.323100 ms MarkObjects: 181.192000 ms  DeleteObjects: 0.633600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5041)
+UnloadTime: 0.958300 ms
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 100444.
+Total: 204.508900 ms (FindLiveObjects: 3.623300 ms CreateObjectMapping: 2.584700 ms MarkObjects: 198.029200 ms  DeleteObjects: 0.271500 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+A scripted object (probably MonoCameraCapture?) has a different serialization layout when loading. (Read 32 bytes but expected 276 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
+(Filename:  Line: 2710)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3844)
+UnloadTime: 0.843300 ms
+
+Unloading 60 unused Assets to reduce memory usage. Loaded Objects now: 79733.
+Total: 197.995100 ms (FindLiveObjects: 2.643500 ms CreateObjectMapping: 2.393800 ms MarkObjects: 192.655000 ms  DeleteObjects: 0.302600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5041)
+UnloadTime: 0.972000 ms
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 100453.
+Total: 204.078200 ms (FindLiveObjects: 3.562900 ms CreateObjectMapping: 2.140800 ms MarkObjects: 198.016400 ms  DeleteObjects: 0.357900 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+A scripted object (probably MonoCameraCapture?) has a different serialization layout when loading. (Read 32 bytes but expected 276 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
+(Filename:  Line: 2710)
+
+IKSolverLookAt eyes setup is invalid. Can't initiate solver. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+NapLodControllerManager AddJobData: group is null
+UnityEngine.Logger:Log(LogType, Object)
+HAJHLLCPIHD:ABDLEONNPAJ()
+HAJHLLCPIHD:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+NapLodControllerManager AddJobData: group is null
+UnityEngine.Logger:Log(LogType, Object)
+HAJHLLCPIHD:ABDLEONNPAJ()
+HAJHLLCPIHD:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+NapLodControllerManager AddJobData: group is null
+UnityEngine.Logger:Log(LogType, Object)
+HAJHLLCPIHD:ABDLEONNPAJ()
+HAJHLLCPIHD:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+NapLodControllerManager AddJobData: group is null
+UnityEngine.Logger:Log(LogType, Object)
+HAJHLLCPIHD:ABDLEONNPAJ()
+HAJHLLCPIHD:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3884)
+UnloadTime: 0.793000 ms
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 79868.
+Total: 210.719600 ms (FindLiveObjects: 2.576800 ms CreateObjectMapping: 2.248200 ms MarkObjects: 205.465700 ms  DeleteObjects: 0.428600 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5088)
+UnloadTime: 1.027300 ms
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 100655.
+Total: 210.233200 ms (FindLiveObjects: 3.594800 ms CreateObjectMapping: 2.491300 ms MarkObjects: 203.789000 ms  DeleteObjects: 0.357800 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+A scripted object (probably MonoCameraCapture?) has a different serialization layout when loading. (Read 32 bytes but expected 276 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
+(Filename:  Line: 2710)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3901)
+UnloadTime: 0.480700 ms
+
+Unloading 122 unused Assets to reduce memory usage. Loaded Objects now: 79919.
+Total: 196.526300 ms (FindLiveObjects: 2.540000 ms CreateObjectMapping: 2.240000 ms MarkObjects: 191.079900 ms  DeleteObjects: 0.666200 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5253)
+UnloadTime: 1.371000 ms
+
+Unloading 93 unused Assets to reduce memory usage. Loaded Objects now: 103395.
+Total: 213.732400 ms (FindLiveObjects: 3.609900 ms CreateObjectMapping: 2.707500 ms MarkObjects: 207.084100 ms  DeleteObjects: 0.330600 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3948)
+UnloadTime: 0.630300 ms
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 80095.
+Total: 198.183200 ms (FindLiveObjects: 2.825700 ms CreateObjectMapping: 2.230600 ms MarkObjects: 192.803200 ms  DeleteObjects: 0.323400 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5181)
+UnloadTime: 1.264200 ms
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 101808.
+Total: 215.397700 ms (FindLiveObjects: 3.537200 ms CreateObjectMapping: 2.509500 ms MarkObjects: 208.996400 ms  DeleteObjects: 0.354400 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3962)
+UnloadTime: 0.765800 ms
+
+Unloading 53 unused Assets to reduce memory usage. Loaded Objects now: 80158.
+Total: 199.609200 ms (FindLiveObjects: 2.544800 ms CreateObjectMapping: 2.254900 ms MarkObjects: 194.324300 ms  DeleteObjects: 0.484800 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 5195)
+UnloadTime: 1.100800 ms
+
+Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 101875.
+Total: 215.550200 ms (FindLiveObjects: 3.555100 ms CreateObjectMapping: 2.486100 ms MarkObjects: 208.990800 ms  DeleteObjects: 0.518000 ms)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Failed to create agent because it is not close enough to the NavMesh 
+(Filename:  Line: 648)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 3980)
+UnloadTime: 0.637200 ms
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 80227.
+Total: 200.356000 ms (FindLiveObjects: 2.517400 ms CreateObjectMapping: 2.274900 ms MarkObjects: 195.218400 ms  DeleteObjects: 0.345000 ms)
+
+NativeTaskLogger:notice_show_notice do not use native task.
+From box: useLegacy: True
+Init with offScreen: True
+Init with offScreen: True
+InitUI with offScreen: True
+mihoyosdk webview created: a518bd13853cdef76d6a222cb008d4bd512681d91792853178889
+activityId - 
+Load - a518bd13853cdef76d6a222cb008d4bd512681d91792853178889
+Logger Index is:10, received native_ui_show event: webview,should send notification.
+Logger Index is:11, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"webview"}
+second level domain is:hoyoverse.com
+set cookies:lrsag 0 hoyoverse.com
+set cookies:age_gate_country US hoyoverse.com
+Webview perf time (ms) - init : 182
+ZenFulcrum.EmbeddedBrowser.JSONNode
+second level domain is:hoyoverse.com
+set cookies:lrsag 0 hoyoverse.com
+set cookies:age_gate_country US hoyoverse.com
+web: 2 url: https://sdk.hoyoverse.com/nap/announcement/index.html?auth_appid=announcement&authkey_ver=1&bundle_id=nap_global&channel_id=1&country=US&esc_waiting_time=200&font_option=recommend&game=nap&game_biz=nap_global&lang=en&level=52&platform=pc&region=prod_gf_us&sdk_presentation_style=fullscreen&sdk_screen_transparent=true&sign_type=2&uid=1008693226&version=2.54.0#/,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
+Webview perf time (ms) - Load : 478
+zfb_setFocused CHT_FOCUSED_NODE
+zfb_setFocused CHT_FOCUSED_NODE
+zfb_setFocused CHT_FOCUSED_NODE
+before_hide_notice
+Logger Index is:12, received native_ui_hide event: webview,should send notification.
+Logger Index is:13, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"webview"}
+into notice NotifyShowResult
+OnGetWebViewPageClose:
+NativeTaskLogger:notice_request_red_point_text do not use native task.
+NativeTaskLogger:notice_check_pop_notice do not use native task.
+into notice NotifyShowResult
+OnClose
+Browser OnDestroy
+mihoyosdk webview destroyed: a518bd13853cdef76d6a222cb008d4bd512681d91792853178889
+Unloading 3 Unused Serialized files (Serialized files now loaded: 9247)
+UnloadTime: 53.636200 ms
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+SetLODs: Attempting to force a LOD on a disabled LODGroup 
+(Filename:  Line: 134)
+
+
+Unloading 509 unused Assets to reduce memory usage. Loaded Objects now: 131442.
+Total: 232.563200 ms (FindLiveObjects: 4.621600 ms CreateObjectMapping: 3.563500 ms MarkObjects: 223.425900 ms  DeleteObjects: 0.951900 ms)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
 
 currentCulture.Name:en-US
-Unloading 2 Unused Serialized files (Serialized files now loaded: 368)
-UnloadTime: 0.885200 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 380)
+UnloadTime: 0.594800 ms
 
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 46343.
-Total: 86.625700 ms (FindLiveObjects: 1.418700 ms CreateObjectMapping: 1.792200 ms MarkObjects: 83.326900 ms  DeleteObjects: 0.087600 ms)
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 48118.
+Total: 74.410900 ms (FindLiveObjects: 1.472500 ms CreateObjectMapping: 1.758000 ms MarkObjects: 71.054800 ms  DeleteObjects: 0.125300 ms)
 
 WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
@@ -416,8 +1222,9 @@ Update local region translation resources:en-us
 regionTranslationVersionCheck URL:https://webstatic.hoyoverse.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
 UpdateConfig: HoYoPass_UpdateConfig call success
 config.ini is not exist
-request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.54.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
-Set Game Version: OSPRODWin3.2.0
+request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.56.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
+Set Game Version: OSPRODWin3.3.0
+OnBoxConfigReady: forwarded box config to APM
 HoYoPass.Initialize
 log strategy is updated to 0
 EventDispatcher: into InitResult
@@ -434,9 +1241,8 @@ set current domain region: US
 EventDispatcher: into DataReport
 AutoLogin: HoYoPass.AutoLogin method call succeeded
  set enableUIVertexColorCalc to true!
-Logger Index is:10, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
-Logger Index is:11, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
-OnBoxConfigReady: forwarded box config to APM
+Logger Index is:14, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:15, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
 ThirdpartyLoginManager initialize success
 LoginManager initialize success
 start
@@ -444,17 +1250,18 @@ start
 Auto login by account model start
 DeviceFPManager::CheckInvalidDeviceFpValue, invalid devicefp key is: MIHOYOSDK_GPU_NAME, value is: NVIDIA GeForce RTX 4070 Ti SUPER
 use_new_compliance_flow: passport
+UpdateConfig: HoYoPass_UpdateConfig call success
 EventDispatcher: into CurrentRegionUpdate
-EventDispatcher: into LogStrategyUpdate
-EventDispatcher: into LoginResult
 set current domain region: US
 CheckAgeGateVerificationEvent: false
+EventDispatcher: into LogStrategyUpdate
+EventDispatcher: into LoginResult
 log strategy is updated to 0
 SetAPMAgeGate: 0 0
 Auto Login completes with retcode: 0
 IsAlreadyDetached is:False
-Logger Index is:12, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
-Logger Index is:13, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
+Logger Index is:16, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:17, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
 OnHoYoPassLoginResult: login result with code: OK
  set enableUIVertexColorCalc to true!
 IsAlreadyDetached is:False
@@ -469,16 +1276,15 @@ GetReportType failed because of unsupported type
 
 Protocol has no update or no need to show pre-comboLogin protocol dialog
 IsAlreadyDetached is:True
-Logger Index is:14, received native_ui_hide event: MiHoYoSDKLoadingWheel,should not send notification because the native ui stack is already empty.
+Logger Index is:18, received native_ui_hide event: MiHoYoSDKLoadingWheel,should not send notification because the native ui stack is already empty.
  set enableUIVertexColorCalc to true!
-Logger Index is:15, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
-Logger Index is:16, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
+Logger Index is:19, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:20, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
 Try to get the region-specific url, key is comboLogin_us
 Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
-UpdateConfig: HoYoPass_UpdateConfig call success
 IsAlreadyDetached is:False
-Logger Index is:17, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
-Logger Index is:18, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
+Logger Index is:21, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:22, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
 into OnShowUI,  params is: {"event_name":"Login.SuccessTip","element_data":[{"id":"Login.SuccessTip.AccountIcon","action_index":0,"text":"Email","hint_text":"","visible":true,"is_checked":false,"type":0},{"id":"Login.SuccessTip.Tip","action_index":0,"text":"Welcome, su****77@gmail.com!","hint_text":"","visible":false,"is_checked":false,"type":0}]}
 
 Login.SuccessTip pluginui instance exist, show it.
@@ -487,10 +1293,10 @@ action index is 0, return directly.
 action index is 0, return directly.
 
 Login.SuccessTip pluginui is showed.
-Application will quit.
+OnApplicationQuit
+[destroy] callsite=shutdown  threw=False
 WwiseUnity: Sound engine terminate.
 On Application quit
 Uninitialize: HoYoPass_Uninitialize call success
 log strategy is updated to 0
-OnApplicationQuit
-[destroy] callsite=shutdown  threw=False
+Application will quit.

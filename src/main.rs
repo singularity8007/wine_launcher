@@ -15,8 +15,7 @@ use config::Config;
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let cfg = Config::hardcoded()?;
 
-    // No update checks and no launch here: just open the window. Everything
-    // else happens when a button is pressed.
+    // No update checks and no launch here
     gui::run(Backend::new(cfg))?;
     Ok(())
 }

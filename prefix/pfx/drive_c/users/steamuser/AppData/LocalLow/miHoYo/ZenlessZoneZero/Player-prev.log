@@ -1,5 +1,5 @@
-Compressed File Name 2026-10-01T22-45-42.zip
-Initialize engine version: 2019.4.40f1 (aac03e0cdd)
+Compressed File Name 2026-10-23T12-42-55.zip
+Initialize engine version: 2019.4.40f1 (ad7251155a)
 [Subsystems] Discovering subsystems at path S:/ZenlessZoneZero_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1  threadingMode:3
 Direct3D:
@@ -22,7 +22,7 @@ Logic InitOdinNew Success
 New input system (experimental) initialized
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 0.180200 ms
+UnloadTime: 0.266700 ms
 currentCulture.Name:en-US
 Odin Serializer ArchitectureInfo initialization with defaults (all unaligned read/writes disabled).
 Odin Serializer detected whitelisted runtime platform WindowsPlayer and memory read test succeeded; enabling all unaligned memory read/writes.
@@ -33,17 +33,18 @@ Startup RegisterInputSystem.
 HTTP interceptors initialized
 config.ini is not exist
 currentCulture.Name:en-US
-Unloading 5 Unused Serialized files (Serialized files now loaded: 126)
-UnloadTime: 0.955800 ms
+HoYoChannel_LOADED: channel=discord loaded
+Unloading 5 Unused Serialized files (Serialized files now loaded: 138)
+UnloadTime: 1.017900 ms
 
-Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 45140.
-Total: 19.683100 ms (FindLiveObjects: 1.089800 ms CreateObjectMapping: 1.206100 ms MarkObjects: 17.354300 ms  DeleteObjects: 0.032600 ms)
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 46656.
+Total: 29.901300 ms (FindLiveObjects: 1.216500 ms CreateObjectMapping: 1.269200 ms MarkObjects: 27.375900 ms  DeleteObjects: 0.039500 ms)
 
 WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 4365 
+Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 4357 
 SDKInit
 SetSDKEnv: 2
 jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
@@ -59,8 +60,8 @@ Update local region translation resources:en-us
 Update local region translation resources:en-us
 regionTranslationVersionCheck URL:https://webstatic.hoyoverse.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
 config.ini is not exist
-request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.54.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
-Set Game Version: OSPRODWin3.2.0
+request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.56.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
+Set Game Version: OSPRODWin3.3.0
 HoYoPass.Initialize
 log strategy is updated to 0
 EventDispatcher: into InitResult
@@ -73,7 +74,7 @@ PreLoadSWURL: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=
 Init with offScreen: True
 Init with offScreen: True
 InitUI with offScreen: True
-mihoyosdk webview created: a518bd13853cdef76d6a222cb008d4bd512681d91790894765500
+mihoyosdk webview created: a518bd13853cdef76d6a222cb008d4bd512681d91792759401810
 InitCrashSDKConfig
 log strategy is updated to 0
 auth Ticket is empty
@@ -125,7 +126,7 @@ Try to get the region-specific url, key is comboLogin_us
 Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
 second level domain is:hoyoverse.com
 set cookies:lrsag 0 hoyoverse.com
-Webview perf time (ms) - init : 29
+Webview perf time (ms) - init : 120
 ZenFulcrum.EmbeddedBrowser.JSONNode
 IsAlreadyDetached is:False
 Logger Index is:8, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
@@ -143,7 +144,7 @@ second level domain is:hoyoverse.com
 set cookies:lrsag 0 hoyoverse.com
 set cookies:age_gate_country US hoyoverse.com
 web: 1 url: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=0&mode=fullscreen&network=wifi&platform=pc&runtime_cache=false,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
-Webview perf time (ms) - Load : 404
+Webview perf time (ms) - Load : 674
 disableExecuteAsync:0
 disableSRPHelper:0
 disableiOSShaderHibernation:0
@@ -169,168 +170,32 @@ enablePhyManagerJob:0
 disableRayTracing:0
 disableMeshLet:0
 
+Task.ManagedThreadId = 14
+Unloading 3 Unused Serialized files (Serialized files now loaded: 404)
+UnloadTime: 3.172400 ms
+
+Unloading 267 unused Assets to reduce memory usage. Loaded Objects now: 52078.
+Total: 41.690300 ms (FindLiveObjects: 1.401700 ms CreateObjectMapping: 2.081400 ms MarkObjects: 37.901000 ms  DeleteObjects: 0.306000 ms)
+
+currentCulture.Name:en-US
 WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 ERROR: Shader Hidden/Universal Render Pipeline/RTXGI shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-Texture: InternalLut_Char_4x4_RGB111110Float is released while Async SRP still running!! frame: 4718 
-Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 4718 
 MouseInputEnhancement启动
-WARNING: Shader Unsupported: 'ASE/Particle_Noise_Dissolve' - All passes removed
-WARNING: Shader Did you use #pragma only_renderers and omit this platform?
-Shader 'Spine/Outline/SkeletonGraphic': fallback shader 'Spine/SkeletonGraphic' not found
-ERROR: Shader Spine/Outline/SkeletonGraphic shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
-wm_setEnable: begin: watermark input param : {"enable":false,"alpha":0.3,"width":3840,"height":2160}
-wm_setEnable: set to:False
-wm_setEnable: WM is disabled, hide wm
-wm_setWidth: set to:3840
-wm_setHeight: set to:2160
-wm_setAlpha: alpha set to:0.3
-apm_set_server_id: prod_gf_us
-Try to get the region-specific url, key is beforeVerify_us
-Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
-apm_set_server_id: prod_gf_us
-NativeTaskLogger:notice_check_pop_notice do not use native task.
-PreLoadSWURL: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=52&lrsag=0&mode=fullscreen&network=wifi&platform=pc&region=prod_gf_us&runtime_cache=true&uid=1008693226
-wm_initialize:WM is disabled
-ZenFulcrum.EmbeddedBrowser.JSONNode
-second level domain is:hoyoverse.com
-set cookies:lrsag 0 hoyoverse.com
-set cookies:age_gate_country US hoyoverse.com
-web: 1 url: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=52&lrsag=0&mode=fullscreen&network=wifi&platform=pc&region=prod_gf_us&runtime_cache=true&uid=1008693226,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
-Webview perf time (ms) - Load : 102
-red point response is: {"retcode":0,"message":"OK","data":{"infos":[]}}
-Unloading 3 Unused Serialized files (Serialized files now loaded: 2961)
-UnloadTime: 0.298700 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 380)
+UnloadTime: 0.176500 ms
 
-Unloading 308 unused Assets to reduce memory usage. Loaded Objects now: 58750.
-Total: 107.917200 ms (FindLiveObjects: 1.525400 ms CreateObjectMapping: 1.960400 ms MarkObjects: 101.763600 ms  DeleteObjects: 2.667500 ms)
-
-A scripted object (probably PcgSceneAssetManager?) has a different serialization layout when loading. (Read 32 bytes but expected 3840 bytes)
-Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
-(Filename:  Line: 2710)
-
-[5706][WorldGraph] [MainGraph_name:GroupGraph_600203422_2_id:1][GraphFlow_329][Frame:842] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-CJHDDJDCJBA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-PFGJJNMPLPH:GAMMDFLLNLN(MGKAHFFFNAC, KCFAEOPHMHA&)
-PFGJJNMPLPH:GAMMDFLLNLN(KCFAEOPHMHA&)
-BBIFFFFGMFK:NFPAJIBGHJE(KCFAEOPHMHA&)
-DIJHKMDJMND:DPGLFCJPAHL()
-MoleMole.GameEngine:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[5706][WorldGraph] [MainGraph_name:GroupGraph_600203424_2_id:2][GraphFlow_332][Frame:842] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-CJHDDJDCJBA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-PFGJJNMPLPH:GAMMDFLLNLN(MGKAHFFFNAC, KCFAEOPHMHA&)
-PFGJJNMPLPH:GAMMDFLLNLN(KCFAEOPHMHA&)
-BBIFFFFGMFK:NFPAJIBGHJE(KCFAEOPHMHA&)
-DIJHKMDJMND:DPGLFCJPAHL()
-MoleMole.GameEngine:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6437][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:316][GraphFlow_468][Frame:1573] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6437][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:316][GraphFlow_468][Frame:1573] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6437][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:317][GraphFlow_471][Frame:1573] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-[6437][WorldGraph] [MainGraph_name:ViewObjectGraph_3000079_id:317][GraphFlow_471][Frame:1573] error : InteractData not find by name 
-UnityEngine.Logger:Log(LogType, Object)
-JPDDKOIGMDH:JMOCAIBJNCC(LCFDKEPNHOH&, String)
-DOJBODEMEOJ:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Boolean)
-JIPPNCPAPJP:OFDNBMIAIPB(LCFDKEPNHOH&, Int32, Boolean)
-DEBDMLEGGPA:BMMHBOBJCAP(LCFDKEPNHOH&)
-GLCGEKHKGON:KLKACGDFOKJ(LCFDKEPNHOH&)
-PFHDIEDIHBC:PPBJNNFMJAB()
-DIJHKMDJMND:DPGLFCJPAHL()
-System.Action:Invoke()
-Foundation.Coroutine.CoroutineManager:Update()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-NapLodControllerManager AddJobData: group is null
-UnityEngine.Logger:Log(LogType, Object)
-OPBOEMDGHPL:CONJMFCBLPG()
-OPBOEMDGHPL:HKMGHFAKKOG()
-FNLGCNCMCAN:LGJBGCLHNGI(Single)
-MoleMole.GameEngine:LateUpdate()
- 
-(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
-
-Unloading 2 Unused Serialized files (Serialized files now loaded: 4663)
-UnloadTime: 3.718700 ms
-
-Unloading 197 unused Assets to reduce memory usage. Loaded Objects now: 75764.
-Total: 143.488400 ms (FindLiveObjects: 2.378500 ms CreateObjectMapping: 2.344300 ms MarkObjects: 137.541500 ms  DeleteObjects: 1.223700 ms)
-
-currentCulture.Name:en-US
-Unloading 2 Unused Serialized files (Serialized files now loaded: 368)
-UnloadTime: 0.277300 ms
-
-Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 46315.
-Total: 87.627800 ms (FindLiveObjects: 1.389300 ms CreateObjectMapping: 1.743500 ms MarkObjects: 84.416700 ms  DeleteObjects: 0.077800 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 47293.
+Total: 25.013100 ms (FindLiveObjects: 1.222100 ms CreateObjectMapping: 1.291700 ms MarkObjects: 21.266500 ms  DeleteObjects: 1.232400 ms)
 
 WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+Texture: InternalLut_Char_4x4_RGB111110Float is released while Async SRP still running!! frame: 46365 
+Texture: SceneInternalLut_4x4_RGB111110Float is released while Async SRP still running!! frame: 46365 
 SDKInit
 SetSDKEnv: 2
 jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
@@ -346,8 +211,10 @@ Update local region translation resources:en-us
 regionTranslationVersionCheck URL:https://webstatic.hoyoverse.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
 UpdateConfig: HoYoPass_UpdateConfig call success
 config.ini is not exist
-request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.54.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
-Set Game Version: OSPRODWin3.2.0
+request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.56.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
+Set Game Version: OSPRODWin3.3.0
+DeviceFPManager::CheckInvalidDeviceFpValue, invalid devicefp key is: MIHOYOSDK_GPU_NAME, value is: NVIDIA GeForce RTX 4070 Ti SUPER
+UpdateConfig: HoYoPass_UpdateConfig call success
 HoYoPass.Initialize
 log strategy is updated to 0
 EventDispatcher: into InitResult
@@ -366,15 +233,11 @@ AutoLogin: HoYoPass.AutoLogin method call succeeded
  set enableUIVertexColorCalc to true!
 Logger Index is:10, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
 Logger Index is:11, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
-OnBoxConfigReady: forwarded box config to APM
 ThirdpartyLoginManager initialize success
 LoginManager initialize success
 start
 start
 Auto login by account model start
-DeviceFPManager::CheckInvalidDeviceFpValue, invalid devicefp key is: MIHOYOSDK_GPU_NAME, value is: NVIDIA GeForce RTX 4070 Ti SUPER
-use_new_compliance_flow: passport
-UpdateConfig: HoYoPass_UpdateConfig call success
 EventDispatcher: into CurrentRegionUpdate
 EventDispatcher: into LogStrategyUpdate
 EventDispatcher: into LoginResult
@@ -417,10 +280,335 @@ action index is 0, return directly.
 action index is 0, return directly.
 
 Login.SuccessTip pluginui is showed.
+disableExecuteAsync:0
+disableSRPHelper:0
+disableiOSShaderHibernation:0
+disablePSOCheck:0
+disableiOSGPUBufferOpt:0
+disableSkinMeshStrip:0
+disableAnimAllocatorOpt:0
+disableTexStreamingVisbilityOpt:0
+enableiOSShaderWarmupOnStartup:0
+disableSRPInstancing:0
+disableObjectInstanceCache:0
+disableMetalPSOCreateAsync:0
+disableAsyncSRPSubmit:0
+disableStepPreloadMonster:0
+disableAsyncUploadJob:0
+disableLoadSceneParallel:0
+disableIOSMTLHeapOpt:0
+disableVKPSOJob:0
+disableMetalShaderMemOpt:0
+disableFlatbufferNativeArrayOpt:0
+isKcp:1
+enablePhyManagerJob:0
+disableRayTracing:0
+disableMeshLet:0
+
+Curl error 28: Connection time-out
+ 
+(Filename:  Line: 869)
+
+Curl error 28: Connection time-out
+ 
+(Filename:  Line: 869)
+
+Curl error 28: Connection time-out
+ 
+(Filename:  Line: 869)
+
+Curl error 28: Connection time-out
+ 
+(Filename:  Line: 869)
+
+www error: url=https://nap-sdk-os.hoyoverse.com/nap_global/combo/granter/api/compareProtocolVersion?, error=Request timeout
+Retry with delay=0 ms, left count=3
+www error: url=https://sdk-os-static.hoyoverse.com/combo/box/api/config/sdk/combo?biz_key=nap_global&client_type=3, error=Request timeout
+Retry with delay=0 ms, left count=3
+www error: url=https://sdk-os-static.hoyoverse.com/combo/box/api/config/sw/precache?biz=nap_global&client=3, error=Request timeout
+Retry with delay=0 ms, left count=3
+www error: url=https://nap-sdk-os.hoyoverse.com/nap_global/account/ma-passport/api/getConfig, error=Request timeout
+Retry with delay=0 ms, left count=3
+use_new_compliance_flow: passport
+OnBoxConfigReady: forwarded box config to APM
+Shader 'Spine/Outline/SkeletonGraphic': fallback shader 'Spine/SkeletonGraphic' not found
+ERROR: Shader Spine/Outline/SkeletonGraphic shader is not supported on this GPU (none of subshaders/fallbacks are suitable)
+WARNING: Shader Unsupported: 'ASE/Particle_Noise_Dissolve' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+wm_setEnable: begin: watermark input param : {"enable":false,"alpha":0.3,"width":3840,"height":2160}
+wm_setEnable: set to:False
+wm_setEnable: WM is disabled, hide wm
+wm_setWidth: set to:3840
+wm_setHeight: set to:2160
+wm_setAlpha: alpha set to:0.3
+apm_set_server_id: prod_gf_us
+Try to get the region-specific url, key is beforeVerify_us
+Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
+apm_set_server_id: prod_gf_us
+NativeTaskLogger:notice_check_pop_notice do not use native task.
+PreLoadSWURL: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=52&lrsag=0&mode=fullscreen&network=wifi&platform=pc&region=prod_gf_us&runtime_cache=true&uid=1008693226
+[Discord_RP] user not bound to discord, skip auto-trigger
+wm_initialize:WM is disabled
+ZenFulcrum.EmbeddedBrowser.JSONNode
+red point response is: {"retcode":0,"message":"OK","data":{"infos":[]}}
+second level domain is:hoyoverse.com
+set cookies:lrsag 0 hoyoverse.com
+set cookies:age_gate_country US hoyoverse.com
+web: 1 url: https://sdk.hoyoverse.com/sw.html?bundle_id=nap_global&channel_id=1&game=nap&gameBiz=nap_global&lang=en&level=52&lrsag=0&mode=fullscreen&network=wifi&platform=pc&region=prod_gf_us&runtime_cache=true&uid=1008693226,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
+Webview perf time (ms) - Load : 581
+Unloading 3 Unused Serialized files (Serialized files now loaded: 2909)
+UnloadTime: 1.368200 ms
+
+Unloading 182 unused Assets to reduce memory usage. Loaded Objects now: 64554.
+Total: 125.102800 ms (FindLiveObjects: 1.654400 ms CreateObjectMapping: 2.037900 ms MarkObjects: 118.093600 ms  DeleteObjects: 3.316600 ms)
+
+A scripted object (probably PcgSceneAssetManager?) has a different serialization layout when loading. (Read 32 bytes but expected 92 bytes)
+Did you #ifdef UNITY_EDITOR a section of your serialized properties in any of your scripts? 
+(Filename:  Line: 2710)
+
+NativeTaskLogger:notice_show_notice do not use native task.
+From box: useLegacy: True
+Init with offScreen: True
+Init with offScreen: True
+InitUI with offScreen: True
+mihoyosdk webview created: a518bd13853cdef76d6a222cb008d4bd512681d91792760776236
+activityId - 
+Load - a518bd13853cdef76d6a222cb008d4bd512681d91792760776236
+Logger Index is:19, received native_ui_show event: webview,should send notification.
+Logger Index is:20, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"webview"}
+second level domain is:hoyoverse.com
+set cookies:lrsag 0 hoyoverse.com
+set cookies:age_gate_country US hoyoverse.com
+Webview perf time (ms) - init : 178
+ZenFulcrum.EmbeddedBrowser.JSONNode
+second level domain is:hoyoverse.com
+set cookies:lrsag 0 hoyoverse.com
+set cookies:age_gate_country US hoyoverse.com
+web: 2 url: https://sdk.hoyoverse.com/nap/announcement/index.html?auth_appid=announcement&authkey_ver=1&bundle_id=nap_global&channel_id=1&country=US&esc_waiting_time=200&font_option=recommend&game=nap&game_biz=nap_global&lang=en&level=52&platform=pc&region=prod_gf_us&sdk_presentation_style=fullscreen&sdk_screen_transparent=true&sign_type=2&uid=1008693226&version=2.54.0#/,  enable_joypad_control :{"num":0,"type":0,"exchange":0}
+Webview perf time (ms) - Load : 580
+zfb_setFocused CHT_FOCUSED_NODE
+before_hide_notice
+Logger Index is:21, received native_ui_hide event: webview,should send notification.
+Logger Index is:22, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"webview"}
+into notice NotifyShowResult
+OnGetWebViewPageClose:
+NativeTaskLogger:notice_request_red_point_text do not use native task.
+NativeTaskLogger:notice_check_pop_notice do not use native task.
+into notice NotifyShowResult
+OnClose
+Browser OnDestroy
+mihoyosdk webview destroyed: a518bd13853cdef76d6a222cb008d4bd512681d91792760776236
+NapLodControllerManager AddJobData: group is null
+UnityEngine.Logger:Log(LogType, Object)
+HAJHLLCPIHD:ABDLEONNPAJ()
+HAJHLLCPIHD:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 8349)
+UnloadTime: 34.908100 ms
+
+Unloading 503 unused Assets to reduce memory usage. Loaded Objects now: 131211.
+Total: 180.362000 ms (FindLiveObjects: 5.431800 ms CreateObjectMapping: 4.169300 ms MarkObjects: 169.087100 ms  DeleteObjects: 1.673500 ms)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+GarbageCollector disposing of ComputeBuffer. Please use ComputeBuffer.Release() or .Dispose() to manually release the buffer. 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+[68064][WorldGraph] [MainGraph_name:GroupGraph_600203424_2_id:41][GraphFlow_450][Frame:20802] error : InteractData not find by name 
+UnityEngine.Logger:Log(LogType, Object)
+GJAJFIHLMAL:IFHEDOOFBCL(LGCNEDCMPKM&, String)
+FBCJMIJEOPE:ELMEFBBHCEG(LGCNEDCMPKM&)
+CGJEMKCKIJG:OMMICIJCCKB(LGCNEDCMPKM&)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Boolean)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Int32, Boolean)
+KLAIGKCLFDH:ELMEFBBHCEG(LGCNEDCMPKM&)
+CGJEMKCKIJG:OMMICIJCCKB(LGCNEDCMPKM&)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Boolean)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Int32, Boolean)
+KCBEGMCCKCA:KMLCNCFMAJB(LFEMKPGJMHB, NEIGJHNJNFL&)
+KCBEGMCCKCA:KMLCNCFMAJB(NEIGJHNJNFL&)
+GHBIDFBNIKN:DHBAKIEKJIJ(NEIGJHNJNFL&)
+OPNAJJAIEPP:OKJCHFGIKBH()
+MoleMole.GameEngine:Update()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+[68064][WorldGraph] [MainGraph_name:GroupGraph_600203422_2_id:40][GraphFlow_453][Frame:20802] error : InteractData not find by name 
+UnityEngine.Logger:Log(LogType, Object)
+GJAJFIHLMAL:IFHEDOOFBCL(LGCNEDCMPKM&, String)
+FBCJMIJEOPE:ELMEFBBHCEG(LGCNEDCMPKM&)
+CGJEMKCKIJG:OMMICIJCCKB(LGCNEDCMPKM&)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Boolean)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Int32, Boolean)
+KLAIGKCLFDH:ELMEFBBHCEG(LGCNEDCMPKM&)
+CGJEMKCKIJG:OMMICIJCCKB(LGCNEDCMPKM&)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Boolean)
+PIOJGIAHPNM:MFADEJJGGGE(LGCNEDCMPKM&, Int32, Boolean)
+KCBEGMCCKCA:KMLCNCFMAJB(LFEMKPGJMHB, NEIGJHNJNFL&)
+KCBEGMCCKCA:KMLCNCFMAJB(NEIGJHNJNFL&)
+GHBIDFBNIKN:DHBAKIEKJIJ(NEIGJHNJNFL&)
+OPNAJJAIEPP:OKJCHFGIKBH()
+MoleMole.GameEngine:Update()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+NapLodControllerManager AddJobData: group is null
+UnityEngine.Logger:Log(LogType, Object)
+HAJHLLCPIHD:ABDLEONNPAJ()
+HAJHLLCPIHD:MECADGOCFLA()
+MIANEAGKLKL:PLCJNBHECGC(Single)
+MoleMole.GameEngine:LateUpdate()
+ 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 4813)
+UnloadTime: 2.599800 ms
+
+Unloading 200 unused Assets to reduce memory usage. Loaded Objects now: 93588.
+Total: 182.122600 ms (FindLiveObjects: 3.387900 ms CreateObjectMapping: 2.577300 ms MarkObjects: 174.939600 ms  DeleteObjects: 1.217400 ms)
+
+currentCulture.Name:en-US
+Unloading 2 Unused Serialized files (Serialized files now loaded: 380)
+UnloadTime: 0.373500 ms
+
+Unloading 87 unused Assets to reduce memory usage. Loaded Objects now: 47987.
+Total: 78.886700 ms (FindLiveObjects: 1.711800 ms CreateObjectMapping: 1.591000 ms MarkObjects: 75.427500 ms  DeleteObjects: 0.156000 ms)
+
+WARNING: Shader Unsupported: 'Legacy Shaders/VertexLit' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader Unsupported: 'Legacy Shaders/Diffuse' - All passes removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+SDKInit
+SetSDKEnv: 2
+jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
+jsonComplianceConfig: {"abtestOS":[{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"385"},"enable_envs":["2","5","11","20","21"]},{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"384"},"enable_envs":["3"]},{"app_id":"22","app_key":"4ab24089-92a5-4124-81c8-da8ad7833926","compliance_scene":{"compliance_scene_id":"200"},"enable_envs":["7","12"]}],"available":true}
+jsonWatermarkConfig: {"available":true,"config":[{"app_id":"dii9sc6j6fpc","cloud_app_id":"esajfqp7efb4","enable_envs":[11]}]}
+jsonComplianceConfig: {"abtestOS":[{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"385"},"enable_envs":["2","5","11","20","21"]},{"app_id":"33","app_key":"78ca2ff1-8094-4730-9edc-86fb9ad31992","compliance_scene":{"compliance_scene_id":"384"},"enable_envs":["3"]},{"app_id":"22","app_key":"4ab24089-92a5-4124-81c8-da8ad7833926","compliance_scene":{"compliance_scene_id":"200"},"enable_envs":["7","12"]}],"available":true}
+LoadSkinColorConfig
+config.ini is not exist
+Request to set language:en, length:2
+Update region translation resources:en-us
+Update local region translation resources:en-us
+Update local region translation resources:en-us
+regionTranslationVersionCheck URL:https://webstatic.hoyoverse.com/admin/mi18n/plat_os/m09291531181441/m09291531181441-version.json
+UpdateConfig: HoYoPass_UpdateConfig call success
+config.ini is not exist
+request ab test config {"app_id":"33","app_sign":"c6b38992ac1f9f39200f8c0f17227977","uid":"a518bd13853cdef76d6a222cb008d4bd512681d91790820636195","scene_id":"385","experiment_id":"","params":[{"k":"app_version","v":"2.56.0.0"},{"k":"biz","v":"nap_global"},{"k":"client_type","v":"3"},{"k":"device_model","v":"System Product Name (ASUS)"},{"k":"passport_app_id","v":"d4wv6a0yj4lc"},{"k":"platform","v":"PC"},{"k":"system_version","v":"Windows 10  (10.0.19045) 64bit"}]}
+Set Game Version: OSPRODWin3.3.0
+HoYoPass.Initialize
+log strategy is updated to 0
+EventDispatcher: into InitResult
+OnHoYoPassInitResult: {"msg":"","ret":0}
+Initialize: HoYoPass_Initialize call success
+NativeTaskLogger:notice_check_pop_notice do not use native task.
+InitCrashSDKConfig
+log strategy is updated to 0
+web view render method: box config use legacy! no need request account list AB
+auth Ticket is empty
+CheckChannelLogin: false
+EventDispatcher: into CurrentRegionUpdate
+set current domain region: US
+EventDispatcher: into DataReport
+AutoLogin: HoYoPass.AutoLogin method call succeeded
+ set enableUIVertexColorCalc to true!
+Logger Index is:23, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:24, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
+ThirdpartyLoginManager initialize success
+LoginManager initialize success
+start
+start
+Auto login by account model start
+OnBoxConfigReady: forwarded box config to APM
+DeviceFPManager::CheckInvalidDeviceFpValue, invalid devicefp key is: MIHOYOSDK_GPU_NAME, value is: NVIDIA GeForce RTX 4070 Ti SUPER
+use_new_compliance_flow: passport
+UpdateConfig: HoYoPass_UpdateConfig call success
+EventDispatcher: into CurrentRegionUpdate
+set current domain region: US
+CheckAgeGateVerificationEvent: false
+EventDispatcher: into LogStrategyUpdate
+EventDispatcher: into LoginResult
+log strategy is updated to 0
+SetAPMAgeGate: 0 0
+Auto Login completes with retcode: 0
+IsAlreadyDetached is:False
+Logger Index is:25, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:26, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
+OnHoYoPassLoginResult: login result with code: OK
+ set enableUIVertexColorCalc to true!
+IsAlreadyDetached is:False
+into OnCloseUI,  params is: {"event_name":"Login.SuccessTip","element_data":[]}
+
+Login.SuccessTip pluginui is showing now, close it.
+ set enableUIVertexColorCalc to true!
+IsAlreadyDetached is:False
+OnLoginSucceeded: login Success
+GetReportType failed because of unsupported type 
+(Filename: D:\Git\napengine\Runtime/Export/Debug/Debug.bindings.h Line: 40)
+
+Protocol has no update or no need to show pre-comboLogin protocol dialog
+IsAlreadyDetached is:True
+Logger Index is:27, received native_ui_hide event: MiHoYoSDKLoadingWheel,should not send notification because the native ui stack is already empty.
+ set enableUIVertexColorCalc to true!
+Logger Index is:28, received native_ui_show event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:29, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_show","param":"MiHoYoSDKLoadingWheel"}
+Try to get the region-specific url, key is comboLogin_us
+Server region replace host: nap-sdk-os.hoyoverse.com => nap-sdk-os-us.hoyoverse.com
+IsAlreadyDetached is:False
+Logger Index is:30, received native_ui_hide event: MiHoYoSDKLoadingWheel,should send notification.
+Logger Index is:31, HoYoSDKNativeUIStackManager, OnNotification:{"event":"native_ui_hide","param":"MiHoYoSDKLoadingWheel"}
+into OnShowUI,  params is: {"event_name":"Login.SuccessTip","element_data":[{"id":"Login.SuccessTip.AccountIcon","action_index":0,"text":"Email","hint_text":"","visible":true,"is_checked":false,"type":0},{"id":"Login.SuccessTip.Tip","action_index":0,"text":"Welcome, su****77@gmail.com!","hint_text":"","visible":false,"is_checked":false,"type":0}]}
+
+Login.SuccessTip pluginui instance exist, show it.
+action index is 0, return directly.
+
+action index is 0, return directly.
+
+Login.SuccessTip pluginui is showed.
+WwiseUnity: Sound engine terminate.
+Application will quit.
 On Application quit
 Uninitialize: HoYoPass_Uninitialize call success
 log strategy is updated to 0
-WwiseUnity: Sound engine terminate.
 OnApplicationQuit
 [destroy] callsite=shutdown  threw=False
-Application will quit.

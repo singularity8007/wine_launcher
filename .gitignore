@@ -1,14 +1,16 @@
 # Rust
 /target
 
-# Project-local installs (see dependencies.md)
-.toolchain/
-proton/
-steamrt/
+# Project-local toolchain (dev-env.sh)
+/.toolchain/
+
+# Runtime data: Config::hardcoded() puts all of this under ~/wine_launcher
+/game/
+/proton/
+/steamrt/
+/prefix/
+/playtime.json
 
 # Local testing
-test/
-python_launcher/
-
-# ZZZ install from the Sophon downloader (~71 GB when done)
-game/
+/test/
+/python_launcher/

@@ -35,6 +35,7 @@ struct Package {
 
 /// Run every update check. Progress and warnings go to `progress`.
 pub fn update_all(cfg: &Config, progress: &Progress) -> Result<()> {
+
     let agent = build_agent();
 
     ensure(&agent, &steamrt_package(cfg), progress)

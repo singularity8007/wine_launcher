@@ -136,3 +136,155 @@
 [MiHoYoSDK:1001/175905.860:23486180:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
 [MiHoYoSDK:1001/175906.441:23486760:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
 [MiHoYoSDK:1001/175906.441:23486760:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/204407.378:54521124:INFO:\MiHoYoSDKDll.cpp(145)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.53.0.196, config dir is:Z:\home\hamza\wine_launcher, company name is:miHoYo, product name is:ZenlessZoneZero, data dir is:C:/users/steamuser/AppData/LocalLow/miHoYo/ZenlessZoneZero, client type is: 3
+[MiHoYoSDK:1006/204407.379:54521124:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1006/204407.379:54521124:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/204407.379:54521124:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1006/204407.379:54521124:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/204408.095:54521841:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1006/204408.095:54521841:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/204409.370:54523115:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1006/204409.370:54523116:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/205813.501:55367245:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:login_switch_role_external, args is: 
+[MiHoYoSDK:1006/205813.501:55367245:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/205816.497:55370241:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1006/205816.497:55370241:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/205816.497:55370242:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1006/205816.497:55370242:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/205817.194:55370938:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1006/205817.194:55370938:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1006/205817.718:55371463:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1006/205817.718:55371463:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081320.556:66846422:INFO:\MiHoYoSDKDll.cpp(145)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.53.0.196, config dir is:Z:\home\hamza\wine_launcher, company name is:miHoYo, product name is:ZenlessZoneZero, data dir is:C:/users/steamuser/AppData/LocalLow/miHoYo/ZenlessZoneZero, client type is: 3
+[MiHoYoSDK:1008/081320.556:66846422:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1008/081320.556:66846422:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081320.556:66846422:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1008/081320.556:66846422:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081321.584:66847450:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1008/081321.584:66847450:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081322.897:66848763:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1008/081322.897:66848763:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081936.821:67222684:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:login_switch_role_external, args is: 
+[MiHoYoSDK:1008/081936.821:67222684:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081939.427:67225290:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1008/081939.427:67225290:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081939.427:67225291:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1008/081939.427:67225291:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081940.263:67226127:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1008/081940.264:67226127:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1008/081940.866:67226730:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1008/081940.866:67226730:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/080352.538:73082606:INFO:\MiHoYoSDKDll.cpp(145)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.53.0.196, config dir is:Z:\home\hamza\wine_launcher, company name is:miHoYo, product name is:ZenlessZoneZero, data dir is:C:/users/steamuser/AppData/LocalLow/miHoYo/ZenlessZoneZero, client type is: 3
+[MiHoYoSDK:1009/080352.539:73082607:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1009/080352.539:73082607:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/080352.539:73082607:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1009/080352.539:73082607:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/080353.270:73083338:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1009/080353.270:73083338:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/080354.653:73084721:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1009/080354.653:73084721:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/083140.525:74750587:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:login_switch_role_external, args is: 
+[MiHoYoSDK:1009/083140.525:74750587:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/083142.739:74752801:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1009/083142.739:74752801:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/083142.739:74752801:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1009/083142.739:74752801:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/083143.498:74753560:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1009/083143.498:74753560:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1009/083144.081:74754142:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1009/083144.081:74754142:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/214313.798:88022878:INFO:\MiHoYoSDKDll.cpp(145)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.53.0.196, config dir is:Z:\home\hamza\wine_launcher, company name is:miHoYo, product name is:ZenlessZoneZero, data dir is:C:/users/steamuser/AppData/LocalLow/miHoYo/ZenlessZoneZero, client type is: 3
+[MiHoYoSDK:1011/214313.799:88022878:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1011/214313.799:88022878:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/214313.799:88022878:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1011/214313.799:88022878:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/214314.564:88023643:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1011/214314.564:88023643:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/214316.244:88025323:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1011/214316.244:88025323:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/220916.632:89585596:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:login_switch_role_external, args is: 
+[MiHoYoSDK:1011/220916.632:89585596:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/220919.053:89588016:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1011/220919.053:89588016:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/220919.053:89588016:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1011/220919.053:89588016:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/220920.830:89589793:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1011/220920.830:89589793:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1011/220921.371:89590334:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1011/220921.371:89590334:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085041.920:15769333:INFO:\MiHoYoSDKDll.cpp(145)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.53.0.196, config dir is:Z:\home\hamza\wine_launcher, company name is:miHoYo, product name is:ZenlessZoneZero, data dir is:C:/users/steamuser/AppData/LocalLow/miHoYo/ZenlessZoneZero, client type is: 3
+[MiHoYoSDK:1013/085041.921:15769333:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1013/085041.921:15769333:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085041.921:15769333:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1013/085041.921:15769333:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085043.158:15770571:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1013/085043.158:15770571:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085044.954:15772366:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1013/085044.954:15772366:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085659.039:16146452:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:login_switch_role_external, args is: 
+[MiHoYoSDK:1013/085659.039:16146452:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085702.140:16149553:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1013/085702.140:16149553:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085702.140:16149553:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1013/085702.140:16149553:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085703.114:16150528:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1013/085703.114:16150528:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1013/085703.650:16151063:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1013/085703.650:16151063:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/085822.624:1994244:INFO:\MiHoYoSDKDll.cpp(145)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.53.0.196, config dir is:Z:\home\hamza\wine_launcher, company name is:miHoYo, product name is:ZenlessZoneZero, data dir is:C:/users/steamuser/AppData/LocalLow/miHoYo/ZenlessZoneZero, client type is: 3
+[MiHoYoSDK:1014/085822.624:1994244:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1014/085822.624:1994244:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/085822.624:1994244:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1014/085822.624:1994244:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/085824.134:1995754:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1014/085824.134:1995754:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/085825.418:1997037:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1014/085825.418:1997037:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/101818.339:6789908:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:login_switch_role_external, args is: 
+[MiHoYoSDK:1014/101818.339:6789908:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/101821.775:6793344:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1014/101821.775:6793344:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/101821.775:6793344:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1014/101821.775:6793344:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/101823.638:6795208:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1014/101823.638:6795208:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1014/101825.105:6796674:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1014/101825.105:6796674:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/083853.612:24249159:INFO:\MiHoYoSDKDll.cpp(145)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.53.0.196, config dir is:Z:\home\hamza\wine_launcher, company name is:miHoYo, product name is:ZenlessZoneZero, data dir is:C:/users/steamuser/AppData/LocalLow/miHoYo/ZenlessZoneZero, client type is: 3
+[MiHoYoSDK:1015/083853.612:24249159:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1015/083853.612:24249159:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/083853.612:24249159:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1015/083853.612:24249159:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/083854.482:24250029:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1015/083854.482:24250029:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/083855.880:24251427:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1015/083855.880:24251427:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/084702.048:24737584:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:login_switch_role_external, args is: 
+[MiHoYoSDK:1015/084702.048:24737584:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/084705.073:24740610:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1015/084705.073:24740610:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/084705.073:24740610:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1015/084705.073:24740610:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/084705.910:24741446:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1015/084705.910:24741446:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1015/084706.521:24742057:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1015/084706.521:24742057:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/084809.461:43173225:INFO:\MiHoYoSDKDll.cpp(145)] MiHoYo SDK InitGlobalEnv, sdk version is: 2.53.0.196, config dir is:Z:\home\hamza\wine_launcher, company name is:miHoYo, product name is:ZenlessZoneZero, data dir is:C:/users/steamuser/AppData/LocalLow/miHoYo/ZenlessZoneZero, client type is: 3
+[MiHoYoSDK:1016/084809.461:43173226:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1016/084809.461:43173226:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/084809.461:43173226:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1016/084809.461:43173226:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/084810.258:43174022:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1016/084810.258:43174022:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/084811.521:43175286:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1016/084811.521:43175286:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/092937.134:45660876:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:login_switch_role_external, args is: 
+[MiHoYoSDK:1016/092937.134:45660876:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/092939.709:45663451:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 1
+[MiHoYoSDK:1016/092939.709:45663451:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/092939.709:45663451:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:web_set_joypad_enable_external, args is: 0
+[MiHoYoSDK:1016/092939.709:45663451:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/092941.175:45664917:INFO:\MiHoYoSDKDll.cpp(204)] into Invoke call, func name is:info_set_game_parameters_external, args is: {"game_biz":"nap_global","game":"nap"}
+[MiHoYoSDK:1016/092941.175:45664917:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.
+[MiHoYoSDK:1016/092941.705:45665447:INFO:\MiHoYoSDKDll.cpp(200)] into Invoke call, func name is:set_combo_login_result
+[MiHoYoSDK:1016/092941.705:45665447:INFO:\MiHoYoSDKDll.cpp(216)] Invoke found the dest func.

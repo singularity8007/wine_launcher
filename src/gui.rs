@@ -17,15 +17,17 @@ use iced::{
 
 // ---------- Colours: near-black, one white accent ----------
 
-const INK: Color = color!(0xf2f2f5); // main text and the PLAY button
-const DIM: Color = color!(0x8a8a94); // small labels
-const LINE: Color = color!(0x25252b); // hairline borders
-const LINE_HOVER: Color = color!(0x6a6a76);
-const SURFACE: Color = color!(0x0e0e11); // cards and the popup
-const GOOD: Color = color!(0x9fd8b8); // good-news text
-const WARN: Color = color!(0xf28b8b); // error popup title
+const INK: Color = color!(0xf2f2f5); // main text and the PLAY button 0xf2f2f5
+const DIM: Color = color!(0x8a8a94); // small labels 0x8a8a94
+const LINE: Color = color!(0x25252b); // hairline borders 0x25252b
+const LINE_HOVER: Color = color!(0x6a6a76); // 0x6a6a76
+const SURFACE: Color = color!(0x0e0e11); // cards and the popup 0x0e0e11
+const GOOD: Color = color!(0x9fd8b8); // good news text 0x9fd8b8
+const WARN: Color = color!(0xf28b8b); // error popup title 0xf28b8b
 
 pub fn run(backend: Backend) -> iced::Result {
+    //backend.check_updates();
+
     iced::application(move || App::new(backend.clone()), App::update, App::view)
         .title("wine_launcher")
         .subscription(App::subscription)
@@ -66,14 +68,17 @@ impl App {
     }
 
     fn update(&mut self, message: Message) {
+        //println!("IN GUI/UPDATEFUNCTION");
         match message {
             Message::Launch => self.backend.launch(),
             Message::Install => self.backend.install_game(),
-            Message::CheckUpdates => self.backend.check_updates(),
+            Message::CheckUpdates => {self.backend.check_updates();
+            println!("checking updates");},
             Message::DismissNotice => self.backend.dismiss(),
             // Nothing to do with the time itself: any message makes iced redraw,
             // which re-reads the backend. The backend just saves play time.
             Message::Tick(_) => self.backend.tick(),
+            
         }
     }
 
@@ -122,7 +127,7 @@ impl App {
 fn header<'a>(view: &View) -> Element<'a, Message> {
     let title = column![
         text("ZENLESS ZONE ZERO").size(28).font(bold()),
-        text("wine_launcher").size(13).color(DIM),
+        text("A product of the wine launcher product NAME TO BE DECIDED").size(13).color(DIM),
     ]
     .spacing(4);
 
@@ -169,18 +174,18 @@ fn actions<'a>(busy: bool) -> Element<'a, Message> {
     // `None` greys a button out and makes it ignore clicks.
     let when_free = |message: Message| (!busy).then_some(message);
 
-    let play = button(text("PLAY").size(20).font(bold()).width(Fill).center())
+    let play = button(text("Play").size(20).font(bold()).width(Fill).center())
         .on_press_maybe(when_free(Message::Launch))
         .width(Length::Fixed(240.0))
         .padding(15)
         .style(play_button);
 
-    let install = button(text("Install game").size(14).center())
+    let install = button(text("Install ZZZ").size(14).center())
         .on_press_maybe(when_free(Message::Install))
         .padding([14, 24])
         .style(secondary_button);
 
-    let check = button(text("Check for updates").size(14).center())
+    let check = button(text("Update Steamrt and ProtonGe").size(14).center())
         .on_press_maybe(when_free(Message::CheckUpdates))
         .padding([14, 24])
         .style(secondary_button);
